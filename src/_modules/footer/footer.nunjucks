@@ -1,0 +1,77 @@
+{% macro content(spec) %}
+
+{% set spec = spec or {} %}
+{% set _class = spec.class or '' %}
+
+{# <footer class="footer {{spec.class}}">
+  <img class="footer-logo" src="../images/logo.svg" alt="">
+  <div class="footer-right">
+    <p class="footer-title">{{ _.footer.text }}</p>
+    <ul class="footer-list">
+
+      {% for item in _.footer.social %}
+      <li class="footer-list_item">
+        <a class="footer-list_link ga-event" href="{{ item.url }}" data-gacategory="Community" data-gaactions="{{ item.alt }}">
+          <img src="{{ item.image }}" alt="{{ item.alt }}">
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+    <img class="footer-right_img" src="../images/footer.png" alt="">
+  </div>
+</footer> #}
+
+
+<div class="footer-banner">
+  <div  class="footer-banner-content">
+    <p class="footer-banner-title">{{_.footer.banner.title}}</p>
+    <p class="footer-banner-description">{{_.footer.banner.description}}</p>
+    <a href="{{_.footer.banner.link}}" class="footer-banner-btn">{{_.footer.banner.link_title}}</a>
+  </div>
+  
+</div>
+
+<footer class="footer">
+
+  <div class="footer-main">
+    <div class="footer-main-logo">
+      <a href="index.html">
+        <img class="footer-main-logo-img" src="../images/logo.svg" alt="">
+      </a>
+    </div>
+    
+    <div class="footer-main-pages">
+      <h3 class="footer-main-pages-title">{{_.footer.pages_title}}</h3>
+        <div class="footer-main-pages-content">
+          <div class="footer-main-pages-items">
+            {% for item in _.footer.pages1 %}
+              <a class="footer-page-link" target="{{item.target}}" href="{{item.url}}">{{item.text}} </a>
+            {% endfor %}
+          </div>
+          <div class="footer-main-pages-items">
+            {% for item in _.footer.pages2 %}
+              <a class="footer-page-link" target="{{item.target}}" href="{{item.url}}">{{item.text}} </a>
+            {% endfor %}
+          </div>
+        </div>
+    </div>
+    <div class="footer-main-social">
+      <h3 class="footer-main-social-title">{{_.footer.social_title}}</h3>
+      <div class="footer-social-icons">
+        {% for item in _.footer.social %}
+          <a class="footer-list-link" href="{{item.url}}">
+            <img class="footer-social-icons-img"  src="{{item.image}}" />
+          </a>
+        {% endfor %}
+      </div>
+    </div>  
+  </div>
+  
+  <div class="footer-copywirte">
+    <p>{{_.footer.copywrite}}</p>
+  </div>
+
+</footer>
+
+
+{% endmacro %}

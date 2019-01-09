@@ -1,0 +1,171 @@
+{% extends '_layouts/modeling.nunjucks' %}
+
+{% import '_modules/header/header.nunjucks' as header %}
+
+{% import '_modules/footer/footer.nunjucks' as footer %}
+
+
+{% block content %}
+<header class="zone zone-header">
+  {{ header.content() }}
+</header>
+<main id="content">
+   
+    <div class="sub-banner-zone">
+        <div class="sub-banner">
+            <div class="sub-banner-text">
+                <h2 class="sub-banner-title">{{_.banner.title}}</h2>
+                <p class="banner-subtitle"> {{ _.banner.subtitle }} </p>
+            </div>
+            <div class="sub-banner-image">
+                <img class="sub-banner-main" src="{{_.banner.bg_img}}" />
+            </div>
+        </div>
+        <div class="sub-menu">
+            <div class="sub-menu-items">
+                {% for item in _.banner.ative_submenu %}
+                    <div class="sub-menu-item {{item.class}}" {%if 'modeling'== item.active%} style="border-bottom: solid 4px #fe6b20;" {% endif %} >
+                        <a class="sub-menu-link" href="{{item.link}}" >{{item.name}}</a>    
+                    </div>
+                {% endfor %}
+                {% for item in _.banner.nonative_submenu %}
+                    <div class="{{item.class}}">
+                        <a class="sub-menu-link" style="line-height: 44px;" >{{item.name}}</a>    
+                    </div>
+                {% endfor %}
+            </div>
+            <div class="sub-menu-voxeditor">
+                <a class="voxeditor-download" href="{{_.banner.download_link}}" >{{_.banner.download_btn}}</a>
+            </div>
+        </div>
+    </div>
+
+    {# <a href="https://discord.gg/vAe4zvY" class="hero-discord">
+      <img src="../images/Discord-Logo-Color.svg" alt="" class="hero-telegram_img">
+    </a> #}
+   
+    <div class="modeling-content"> 
+        <div class="modeling-wrapper">
+            <h2 class="modeling-title">{{_.modeling.title}}</h2>
+            <hr class="modeling-title-line" />
+            <div class="modeling-tools">
+                <h3 class="modeling-tools-title">{{_.modeling.tools.title}}</h3>
+                <p class="modeling-tools-text">{{_.modeling.tools.text}}</p>
+                <div class="modeling-tools-content">
+                    <div class="tools-left">
+                        <img class="tools-img" src="{{_.modeling.tools.image}}" />
+                    </div>
+                    <div class="tools-right">
+                        <p class="tools-right-title">{{_.modeling.tools.subtitle}}</p>
+                        <ul class="tools-right-feature">
+                            {% for item in _.modeling.tools.items %}
+                                <li class="tools-right-feature-item"><img class="feature-style-img" src="../images/Rectangle_1.png">{{item.name}}</li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="modeling-toolbar-line" />
+
+            <div class="modeling-toolbar">
+                <div class="modeling-toolbar-section">
+                    <h3 class="modeling-toolbar-title  modeling-sub-title">{{_.modeling.toolbar.title1}}</h3>
+                    <div class="modeling-toolbar-content">
+                        <ul class="toolbar-content-items">
+                            {% for item in _.modeling.toolbar.items1 %}
+                                <li class="toolbar-content-item">
+                                    <img class="toolbar-content-item-image" src="{{item.image}}" >
+                                {{item.text}}
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+                <div class="modeling-toolbar-section">
+                    <h3 class="modeling-toolbar-title  modeling-sub-title">{{_.modeling.toolbar.title2}}</h3>
+                    <div class="modeling-toolbar-content">
+                        <ul class="toolbar-content-items">
+                            {% for item in _.modeling.toolbar.items2 %}
+                                <li class="toolbar-content-item">
+                                    <img class="toolbar-content-item-image" src="{{item.image}}" >
+                                {{item.text}}
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+                
+
+            </div>
+
+            <hr class="modeling-menubar-line" />
+
+            <div class="modeling-menubar">
+                <h3 class="modeling-menubar-title  modeling-sub-title">{{_.modeling.menubar.title}}</h3>
+                <div class="modeling-menubar-content">
+                    <ul class="menubar-content-items">
+                        {% for item in _.modeling.menubar.items %}
+                            <li class="menubar-content-item">
+                                <img class="menubar-content-item-image" src="{{item.image}}" >
+                               {{item.text}}
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+
+            <hr class="modeling-colorpalette-line" />
+
+            <div class="modeling-colorpalette">
+                <h3 class="modeling-colorpalette-title  modeling-sub-title">{{_.modeling.colorpalette.title}}</h3>
+                <div class="modeling-colorpalette-content">
+                    <ul class="colorpalette-content-items">
+                        {% for item in _.modeling.colorpalette.items %}
+                            <li class="colorpalette-content-item">
+                                <div class="colorpalette-content-item-container">
+                                    <img class="colorpalette-content-item-container-image" src="{{item.image}}" >
+                                </div>
+                               {{item.text}}
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                {# <div class="modeling-colorpalette-content2">
+                    {% for item in _.modeling.colorpalette.itemsIcon %}   
+                                <div class="colorpalette-content2-item-container">
+                                    <img class="colorpalette-content-item-container-image" src="{{item.image}}" >
+                                </div>
+                               {{item.text}}   
+                    {% endfor %}
+                </div> #}
+            </div>
+
+            <hr class="modeling-iexport-line" />
+
+            <div class="modeling-iexport">
+                <h3 class="modeling-iexport-title  modeling-sub-title">{{_.modeling.iexport.title}}</h3>
+                <p class="modeling-iexport-text">{{_.modeling.iexport.text}}</p>
+                <div class="modeling-iexport-content">
+                    <ul class="iexport-content-items">
+                        {% for item in _.modeling.iexport.items %}
+                            <li class="iexport-content-item">
+                                <img src="../images/Rectangle_1.png" class="iexport-content-items-img">
+                               {{item.text}}
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="zone footer-zone">
+        {{ footer.content() }}
+    </div>
+
+
+
+</main>
+{% endblock %}

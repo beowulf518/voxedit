@@ -1,0 +1,126 @@
+{% extends '_layouts/animation.nunjucks' %}
+
+
+{% import '_modules/header/header.nunjucks' as header %}
+
+{% import '_modules/footer/footer.nunjucks' as footer %}
+
+
+{% block content %}
+<header class="zone zone-header">
+  {{ header.content() }}
+</header>
+<main id="content">
+   
+    <div class="sub-banner-zone">
+        <div class="sub-banner">
+            <div class="sub-banner-text">
+                <h2 class="sub-banner-title">{{_.banner.title}}</h2>
+                <p class="banner-subtitle"> {{ _.banner.subtitle }} </p>
+            </div>
+            <div class="sub-banner-image">
+                <img class="sub-banner-main" src="{{_.banner.bg_img}}" />
+            </div>
+        </div>
+        <div class="sub-menu">
+            <div class="sub-menu-items">
+                {% for item in _.banner.ative_submenu %}
+                    <div class="sub-menu-item {{item.class}}" {%if 'animation'== item.active%} style="border-bottom: solid 4px #fe6b20;" {% endif %} >
+                        <a class="sub-menu-link" href="{{item.link}}" >{{item.name}}</a>    
+                    </div>
+                {% endfor %}
+                {% for item in _.banner.nonative_submenu %}
+                    <div class=" {{item.class}}">
+                        <a class="sub-menu-link" style="line-height: 44px;" >{{item.name}}</a>    
+                    </div>
+                {% endfor %}
+            </div>
+             <div class="sub-menu-voxeditor">
+                <a class="voxeditor-download" href="{{_.banner.download_link}}">{{_.banner.download_btn}}</a>
+            </div>
+        </div>
+    </div>
+   
+
+    {# <a href="https://discord.gg/vAe4zvY" class="hero-discord">
+      <img src="../images/Discord-Logo-Color.svg" alt="" class="hero-telegram_img">
+    </a> #}
+
+    <div class="animation-content"> 
+        <div class="animation-wrapper">
+            <h2 class="animation-title">{{_.animation.title}}</h2>
+            <hr class="animation-title-line" />
+            <div class="animation-creation">
+                <h3 class="animation-creation-title">{{_.animation.creation.title}}</h3>
+                <p class="animation-creation-text">{{_.animation.creation.text}}</p>
+                <div class="animation-creation-content">
+                    <div class="creation-left">
+                        <img class="creation-img" src="{{_.animation.creation.image}}" />
+                    </div>
+                    <div class="creation-right">
+                        <p class="creation-right-title">{{_.animation.creation.subtitle}}</p>
+                        <ul class="creation-right-feature">
+                            {% for item in _.animation.creation.items %}
+                                <li class="creation-right-feature-item"><img class="feature-style-img" src="../images/Rectangle_1.png">{{item.name}}</li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            {# <hr class="animation-skelecton-line" />
+            <div class="animation-menubar">
+                <h3 class="animation-menubar-title">{{_.animation.menubar.title}}</h3>
+                <div class="animation-menubar-content">
+                    {% for item in _.animation.menubar.items%}
+                        <div class="menubar-content-item">
+                            <img src="{{item.image}} " class=" skelecton-content-item-img" />
+                            <p>{{item.text}}</p>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div> #}
+            <hr class="animation-skelecton-line" />
+            <div class="animation-skelecton">
+                <h3 class="animation-skelecton-title">{{_.animation.skelecton.title}}</h3>
+                <div class="animation-skelecton-content">
+                    {% for item in _.animation.skelecton.items%}
+                        <div class="skelecton-content-item">
+                            <img src="{{item.image}} " class="{{item.class}} skelecton-content-item-img" />
+                        </div>
+                    {% endfor %}
+                </div>
+                <p class="animation-skelecton-text">{{_.animation.skelecton.text}}</p>
+            </div>
+
+            <hr class="animation-timeline-line" />
+            <div class="animation-timeline">
+                <h3 class="animation-timeline-title">{{_.animation.timeline.title}}</h3>
+                <div class="animation-timeline-content">
+                    <p class="timeline-text">{{_.animation.timeline.text}}</p>
+                    <div class="timeline-image">
+                        <img src="{{_.animation.timeline.image}}" />
+                    </div>
+                </div>
+            </div>
+
+            <hr class="animation-library-line" />
+
+            <div class="animation-library">
+                <h3 class="animation-library-title">{{_.animation.library.title}}</h3>
+                <div class="animation-library-content">   
+                    <div class="library-image">
+                        <img src="{{_.animation.library.image}}" />
+                    </div>
+                    <p class="library-text">{{_.animation.library.text}}</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="zone footer-zone">
+        {{ footer.content() }}
+    </div>
+
+</main>
+{% endblock %}

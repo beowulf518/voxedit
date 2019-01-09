@@ -1,0 +1,128 @@
+.download{
+    &-zone{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 60px;
+    }
+
+    &-content{
+        display: flex;
+        justify-content: center;
+    }
+    &-section{
+        display: flex;
+        flex-direction: column;
+        &-header{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            &-title{
+                font-size: 40px;
+                font-weight: 800;
+                text-align: center;
+            }
+            p{
+                text-align: center;
+                font-size: 15px;
+                
+            }
+            .editor-version{
+                margin-top: 35px;
+            }
+        }
+    }
+    &-btn-group{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 20px;
+        flex-wrap: wrap;
+    }
+
+    &-btn-item{
+        display: flex; 
+        flex-direction: column;
+        justify-content: center;
+        p{
+            text-align: center;
+        }
+    }
+
+    &-button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #3ABEEF;
+        padding-left: 10px;
+        padding-right: 20px;
+        border-radius: 10px;
+        cursor: pointer;
+
+        p{
+            font-size: 20px;
+            font-weight: 600;
+            color: #fff;
+            padding-left: 10px;
+        }
+
+
+        
+        &-description{
+            margin-top: 10px;
+            font-size: 16px;
+        }
+    }
+
+    &-button:hover{
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.35);
+    }
+    
+    &-button:active:hover{
+        transform: scale(0.95);
+    }
+
+    &-feature{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 80px;
+        margin-bottom: -90px;
+        
+
+        img{
+           
+        }
+    }
+
+    &-requirement{
+        margin-top: 40px;
+        text-align: center;
+        .requirement-description{
+            text-align: center;
+            font-size: 15px;
+        }
+        .requirement-link{
+            display: block;
+            text-align: center;
+            color: #4e2672;
+            font-size: 15px;
+        }
+    }
+
+    &-changelog{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 35px;
+
+        .changelog-title{
+            font-size: 15px;
+        }
+        .changelog-date{
+            font-weight: 600;
+            font-size: 15px;
+        }
+    }
+
+    
+}

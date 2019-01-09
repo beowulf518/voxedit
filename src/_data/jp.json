@@ -1,0 +1,586 @@
+{
+	"global": {
+		"lang": "jp",
+		"titleTag": "The Sandbox",
+		"description": "The Sandbox is a decentralized community-driven gaming ecosystem for creators to monetize voxel assets and gaming experiences in the blockchain!",
+		"properties": [
+            {
+              "name": "og:title",
+              "content": "プレイヤーによって作られた分散型ゲーム・エコシステム"
+            },
+            {
+              "name": "og:description",
+              "content": "サンドボックスは、クリエイターがブロックチェーンでボクセルアートとゲーム体験を収益化できるコミュニティ主導の分散型ゲーム・エコシステムです！"
+            },
+            {
+              "name": "og:url",
+              "content": "https://sandbox.game"
+            },
+            {
+              "name": "og:site_name",
+              "content": "サンドボックス"
+            },
+            {
+              "name": "og:image",
+              "content": "http://www.sandbox.game/images/logo.png"
+            }
+          ],
+          "itemprops": [
+            {
+              "name": "name",
+              "content": "サンドボックス"
+            },
+            {
+              "name": "description",
+              "content": "サンドボックスは、クリエイターがブロックチェーンでボクセルアートとゲーム体験を収益化できるコミュニティ主導の分散型ゲーム・エコシステムです！"
+            },
+            {
+              "name": "image",
+              "content": "http://www.sandbox.game/images/logo.png"
+            }
+          ],
+          "twitters": [
+            {
+              "name": "twitter:title",
+              "content": "プレイヤーによって作られた分散型ゲーム・エコシステム"
+            },
+            {
+              "name": "twitter:description",
+              "content": "サンドボックスは、クリエイターがブロックチェーンでボクセルアートとゲーム体験を収益化できるコミュニティ主導の分散型ゲーム・エコシステムです！"
+            },
+            {
+              "name": "twitter:card",
+              "content": "プレイヤーによって作られた分散型ゲーム・エコシステム"
+            },
+            {
+              "name": "twitter:site",
+              "content": "@thesandboxgame"
+            },
+            {
+              "name": "twitter:creator",
+              "content": "@thesandboxgame"
+            },
+            {
+              "name": "twitter:creator",
+              "content": "http://www.sandbox.game/images/logo.png"
+            }
+          ]
+	},
+
+	"header": {
+    "nav_list_skip": "Skip navigation",
+    "selectedLanguage": {
+      "name": "Japanese",
+      "class": "nav-language_Japanese",
+      "image": "../images/Japanese_Flag_Icon.png",
+      "link": "/jp"
+    },
+    "language": [
+      {
+        "name": "English",
+        "class": "nav-language_English",
+        "image": "../images/English_Flag_Icon.png",
+        "link": "/"
+      },
+      {
+        "name": "Japanese",
+        "class": "nav-language_Japanese",
+        "image": "../images/Japanese_Flag_Icon.png",
+        "link": "/jp"
+      },
+      {
+        "name": "Chinese",
+        "class": "nav-language_Chinese",
+        "image": "../images/Chinese_Flag_Icon.png",
+        "link": "/cn"
+      },
+      {
+        "name": "Korean",
+        "class": "nav-language_Korean",
+        "image": "../images/Korean_Flag_Icon.png",
+        "link": "/kr"
+      }
+    ],
+		"nav2":[
+			{
+				"name": "ダウンロード",
+				"list_class": "nav-list_item",
+				"link_class": "nav-list_link",
+				"url": "download.html"
+			},
+			{
+				"name": "クリエイターファンド",
+				"list_class": "nav-list_item",
+				"link_class": "nav-list_link",
+				"url": "http://fund.sandbox.game/"
+			},
+			
+			{
+				"name": "FAQ",
+				"list_class": "nav-list_item",
+				"link_class": "nav-list_link nav-list_team",
+				"url": 	"http://sandbox.game/faqs.html"
+			}
+		],
+		"cta": "Join"
+	},
+
+	"banner": {
+        "title": "アートを制作。アニメーション作成。プレイ。",
+        "items": [
+          {
+            "title": "アートを制作。"
+          },
+          {
+            "title": "アニメーションを作成。"
+          },
+          {
+            "title": "プレイ。"
+          }
+        ],
+        "download_btn": "今すぐダウンロード",
+        "download_link": "download.html",
+        "bg_img": "../images/Editor-banner1.png",
+        "mark_logo": "../images/mark-article.png",
+        "subtitle": "VoxEditorは、独自のボクセル・モデルを作成してリギングを行い、短時間でアニメーションを作成できる初めてのソフトウェアです。",
+        "ative_submenu": [
+          {
+            "name": "モデリング",
+            "link": "modeling.html",
+            "class": "activelink",
+            "active": "modeling"
+          },
+          {
+            "name": "アニメーション",
+            "link": "animation.html",
+            "class": "activelink",
+            "active": "animation"
+          }
+        ],
+        "nonative_submenu": [
+          {
+            "name": "タイルマップ3D",
+            "link": "",
+            "class": "notactivelink",
+            "active": "tilemap"
+          }
+        ]
+    },
+
+	"animation": {
+        "title": "アニメーションの概要",
+        "creation": {
+          "title": "アートのアニメーションを作成",
+          "text": "ボクセルアートの世界に大変革をもたらします。 弊社のスケルトン・システムでは、VoxEditorの使いやすいキーフレーム・モードでタイムラインを使用して必要なモデルをリギングし、アニメーションを作成できます。",
+          "image": "../images/VoxEditAnimation.gif",
+          "subtitle": "機能",
+          "items": [
+            {
+              "name": "Animation! Bring your creation to life"
+            },
+            {
+              "name": "Skeleton System"
+            },
+            {
+              "name": "Cut & Rig"
+            },
+            {
+              "name": "Powerful Timeline"
+            },
+            {
+              "name": "Keyframing interpolation"
+            },
+            {
+              "name": "Curves"
+            },
+            {
+              "name": "Animations integrated in one file"
+            }
+          ]
+        },
+        "menubar": {
+          "title": "メニュー・バー",
+          "items": [
+              {
+                  "image": "../images/m8.png",
+                  "text": "ボーンを移動、回転、拡大縮小してアニメーションを作成"
+              },
+              {
+                  "image": "../images/m8.png",
+                  "text": "モデルのボックスをオン/オフにする"
+              },
+              {
+                  "image": "../images/m8.png",
+                  "text": "「グローバル」モードまたは「ローカル」モードで作業"
+              },
+              {
+                  "image": "../images/m8.png",
+                  "text": "アートをボクセルで、またはエッジなしで表示"
+              },
+              {
+                  "image": "../images/m8.png",
+                  "text": "スケルトンボーンをオン/オフにする"
+              },
+              {
+                  "image": "../images/m8.png",
+                  "text": "放射率をオン/オフにする"
+              }
+          ]
+        },
+        "skelecton": {
+          "title": "スケルトン・システム",
+          "items": [
+            {
+              "image": "../images/skelecton.png",
+              "class": "skelection-content-item1"
+            },
+            {
+              "image": "../images/skelecton2.png",
+              "class": "skelection-content-item2"
+            },
+            {
+              "image": "../images/skelecton3.png",
+              "class": "skelection-content-item3"
+            }
+          ],
+          "text": "VoxEditorを使用すると、タイムラインでアニメーションを作成できるスケルトン・ボーンに3Dモデルパーツを付加可能な階層システムを使用してモデルをリギングできます。"
+        },
+        "timeline": {
+          "title": "タイムライン",
+          "text": "VoxEditorは、スケルトン・システムを使用してリギングするだけでなく、アニメーションも作成できる初めてのボクセル・ソフトウェアです。<br/><br/>必要なあらゆるアニメーションを作成し、ゲーム内でのモデルの体験を向上させてください。<br/><br/> 使いやすいインターフェースのキーフレーム補間を使用して、タイムラインであらゆるモデルのアニメーションを作成します。<br/><br/> キーフレームを移動したり、キーフレーム間の補間を伸ばしたり、曲線を追加したりして、アニメーションを完成させることができます。何を選ぶかはユーザー次第です。",
+          "image": "../images/timeline.png"
+        },
+        "library": {
+          "title": "ライブラリ",
+          "text": "すべての形式のファイルをライブラリにインポートして、スケルトン・システムのボーンに割り当てます。<br/><br/>.obj、.vox、.vxmをインポートできます。",
+          "image": "../images/library.png"
+        }
+      },
+      "modeling": {
+        "title": "モデリングの概要",
+        "tools": {
+          "title": "パワフルで使いやすいモデリング・ツール",
+          "text": "創造力を最大限に活用してください！ 優れたツールと使いやすいインターフェースを利用すると、初心者も専門家も、素晴らしいアートを制作できます。",
+          "image": "../images/VoxEditModeling.gif",
+          "subtitle": "機能",
+          "items": [
+            {
+              "name": "オールインワン・ソフトウェア（モデル制作、リギング、アニメーション作成）"
+            },
+            {
+              "name": "優れた性能"
+            },
+            {
+              "name": "WindowsとMacで利用可能"
+            },
+            {
+              "name": "素晴らしいボクセル制作ツール"
+            },
+            {
+              "name": "非常に詳細なモデル"
+            },
+            {
+              "name": "高度なレンダラー"
+            },
+            {
+              "name": "多彩なカラー・パレット"
+            },
+            {
+              "name": "操作が簡単な3D環境"
+            }
+          ]
+        },
+        "toolbar": {
+          "title2": "ツール",
+          "title1": "モデル",
+          "items1": [
+                          
+              {
+                  "image": "../images/toolbar3.png",
+                  "text": "素晴らしいモデルをゼロから制作"
+              },
+              
+              {
+                  "image": "../images/toolbar5.png",
+                  "text": "モデルに色を付ける"
+              },
+              
+              {
+                  "image": "../images/toolbar7.png",
+                  "text": "さまざまな方法でボクセルを消去"
+              } 
+              
+          ],
+          "items2":[
+              {
+                  "image": "../images/toolbar2.png",
+                  "text": "個体ボクセルを作成"
+              },
+              {
+                  "image": "../images/toolbar4.png",
+                  "text": "ボックスをボクセルで一杯して創作活動を始めましょう"
+              },
+              {
+                  "image": "../images/toolbar6.png",
+                  "text": "ボクセルで壁を満たす"
+              },
+              {
+                  "image": "../images/toolbar8.png",
+                  "text": "ボクセルに色を直接塗る"
+              },
+              {
+                  "image": "../images/PivotIcon.png",
+                  "text": "カスタムのピボットポジションを定義"
+              }
+          ]
+          
+        },
+    
+    
+        "menubar": {
+          "title": "メニュー・バー",
+          "items": [
+              {
+                  "image": "../images/m1.png",
+                  "text": "モデラー画面とリガー画面を切り替える"
+              },
+              {
+                  "image": "../images/m6.png",
+                  "text": "未使用スペースを無駄にしないようにモデルをトリミング"
+              },
+              {
+                  "image": "../images/m3.png",
+                  "text": "X、Y、Z軸を中心にアートを回転させる"
+              },
+              {
+                  "image": "../images/m4.png",
+                  "text": "アートをボクセルで、クアッドで、またはエッジなしで表示"
+              },
+              {
+                  "image": "../images/m5.png",
+                  "text": "ボクセルの量を増減してディテールを調節"
+              },
+              {
+                  "image": "../images/EmissiveIcon.png",
+                  "text": "Emisive Wandを使ってボクセルに輝きを与える"
+              },
+              {
+                  "image": "../images/m2.png",
+                  "text": "X、Y、Z軸でミラーを使用して均整の取れたモデルを作成"
+              },
+              {
+                  "image": "../images/m8.png",
+                  "text": "カメラをリセット"
+              },
+              
+              {
+                  "image": "../images/m7.png",
+                  "text": "キャンバスを設定します。小さくても巨大でもかまいません"
+              }
+              
+          ]
+        },
+    
+    
+        "colorpalette": {
+          "title": "カラー・パレット",
+          "items": [
+              {
+                  "image": "../images/ColorPalette.png",
+                  "text": "自分の作品に適した色を簡単に選択"
+              },
+              {
+                  "image": "../images/Saved_Colors.png",
+                  "text": "独自のパレットを保存するか、既存のパレットをインポート"
+              }
+          ],
+          "itemsIcon": [
+              {
+                  "image": "../images/ColorPaleteSaveIcon.png",
+                  "text": "ライブラリに色を保存"	
+              },
+              {
+                  "image": "../images/ColorPaleteEmissiveIcon.png",
+                  "text": "色の放射率をオン/オフにする"	
+              }
+          ]
+    
+        },
+        "iexport": {
+          "title": "インポート/エクスポート",
+          "text": "Vox Editorは、次のような3Dファイル形式の標準をサポートしています。",
+          "items": [
+            {
+              "text": ".obj"
+            },
+            {
+              "text": ".vox"
+            },
+            {
+              "text": "fbx"
+            },
+            {
+              "text": ".vxm（VoxEdit形式）"
+            }
+          ]
+        }
+      },
+    
+    "download":{
+        "banner_img": "../images/VoxEditPageHeader.png",
+        "title": "すべてがここから始まります",
+        "subtitle1": "VoxEditは、独自のボクセル・モデルを作成して調整し、短時間でアニメーションを作成できる初めてのソフトウェアです。",
+        "subtitle2": "アルファ版を今すぐ無料でダウンロードし、ボクセルアートの制作を開始しましょう!",
+        "requirement1": "VoxEditを起動するためには、コンピュータにJavaの最新バージョンをインストールしておく必要があります。",
+        "requirement2": "お使いのオペレーティングシステム用のJava最新バージョンはこちらからダウンロードしてください",
+        "require_link": "https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html",
+        "version": "アルファリリース v0.3.0",
+        "btn_title": "ダウンロード", 
+        "win_description": "Windows 7以降", 
+        "mac_description": "OSX Mavericks以降",
+        "linux_description": "Linux",
+        "win_link": "https://www.voxedit.io/download/VoxEdit-Alpha-v0.3.0-WIN.zip",
+        "mac_link": "https://www.voxedit.io/download/VoxEdit-Alpha-v0.3.0-OSX.pkg",
+        "linux_link": "https://www.voxedit.io/download/VoxEdit-Alpha-v0.3.0-LINUX.zip",
+        "win_img": "../images/WindowsLogo.png",
+        "mac_img": "../images/AppleLogo.png",
+        "linux_img": "../images/LinuxLogo.png",
+        "upcomingFeatures": "../images/VoxEditUpcomingFeatures.png",
+		"changelog" : {
+			"title": "変更履歴",
+			"date": "2018年12月21日 – v0.3.0",
+			"log_list": [
+				"Linuxバージョンを追加",
+				"ctrl+zで直前の操作を元に戻す（Win）",
+				"ctrl+yで直前の操作を繰り返す（Win）",
+				"cmd+zで直前の操作を元に戻す（Mac）",
+				"cmd+yで直前の操作を繰り返す（Mac）",
+				"直前の操作を元に戻す/繰り返すための10の手順",
+				"クラッシュログ",
+				"JavaをWindowsに埋め込み",
+				"バグ修正"
+			]
+		}
+    },
+    "feature": {
+        "title": "VoxEditの機能",
+        "items": [
+          {
+            "title": "モデリング",
+            "image": "../images/modeling.jpg",
+            "content": "創造力を最大限に活用してください！ 弊社の強力なツールと使いやすいインターフェースを利用すると、初心者も専門家も、素晴らしいアートを制作できます。",
+            "url": "modeling.html"
+          },
+          {
+            "title": "アニメーション",
+            "image": "../images/animation.jpg",
+            "content": "ボクセルアートの世界に大変革をもたらします。 弊社のスケルトン・システムでは、VoxEditorの使いやすいキーフレーム・モードでタイムラインを使用して必要なモデルを準備し、アニメーションを作成できます。",
+            "url": "animation.html"
+          },
+          {
+            "title": "タイルマップ（近日公開予定）",
+            "image": "../images/tilemap.jpg",
+            "content": "Tilemap 3Dシステムを利用して建物やエッフェル塔のような大きなモデルを作成し、ゲーム内で自動的に作られるパッケージとしてマーケットプレイスで販売します。",
+            "url": ""
+          }
+        ]
+    },
+    "artists": {
+        "title": "アーティストが制作中のアート",
+        "items": [
+          {
+            "title": "レーシング・モンスター",
+            "image": "../images/racing.png",
+            "owner": "William Santacruz"
+          },
+          {
+            "title": "トカゲ戦士",
+            "image": "../images/warrior.png",
+            "owner": "Thibault"
+          },
+          {
+            "title": "宇宙船",
+            "image": "../images/spaceship.png",
+            "owner": "Nicolás Morrone"
+          },
+          {
+            "title": "動物",
+            "image": "../images/animal.png",
+            "owner": "Agustín Ahibe"
+          }
+        ]
+    },
+    "footer": {
+      "banner": {
+        "title": "コミュニティに参加",
+        "description": "弊社のコミュニティの一員になって、最新ニュースを取得してください。",
+        "link_title": "JOIN US",
+        "link": "https://community.sandbox.game/jp"
+      },
+        "pages_title": "ページ",
+        "social_title": "ソーシャル",
+    
+        "social": [
+          {
+            "url": "http://medium.com/sandbox-game/jp",
+            "image": "../images/medium.png",
+            "alt": "Medium"
+          },
+          {
+            "url": "https://twitter.com/voxedit",
+				    "image": "../images/f-twitter.png",
+            "alt": "Twitter"
+          },
+          {
+            "url": "http://www.pixowl.com",
+            "image": "../images/pixowl.png",
+            "alt": "Pixowl website"
+          }
+        ],
+        "pages1": [
+          {
+            "text": "ニュース",
+            "url": "http://medium.com/sandbox-game/jp",
+            "target": "_blank"
+          },
+          {
+            "text": "制作",
+            "url": "/jp/create",
+            "target": ""
+          },
+          {
+            "text": "ゲーム",
+            "url": "/jp/game",
+            "target": ""
+          },
+          {
+            "text": "エディター",
+            "url": "http://www.voxedit.io/jp",
+            "target": ""
+          }
+        ],
+        "pages2": [
+          {
+            "text": "ホワイトペーパー",
+            "url": "http://community.sandbox.game/jp",
+            "target": ""
+          },
+          {
+            "text": "弊社について",
+            "url": "/jp/aboutus.html",
+            "target": ""
+          },
+          {
+            "text": "マーケットプレイス",
+            "url": "http://community.sandbox.game/jp",
+            "target": ""
+          },
+          {
+            "text": "よくある質問",
+            "url": "/jp/faqs.html",
+            "target": ""
+          }
+        ],
+        "copywrite": "Copyright © 2012-2019、The Sandbox。 All Rights Reserved."
+      }
+}

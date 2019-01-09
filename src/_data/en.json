@@ -1,0 +1,710 @@
+{
+	"global": {
+		"lang": "en",
+
+		"titleTag": "The Sandbox - VoxEdit",
+		"downloadTitleTag": "Download VoxEdit - Free Voxel Editor",
+		"modelingTitleTag": "VoxEdit - Voxel Modeling",
+		"animationTitleTag": "VoxEdit - Voxel Animating & Rigging",
+
+		"description": "Create, animate, and play in The Sandbox. VoxEditor is the first software that allows you to create your own voxel models, rig them, and animate them in no time.",
+		"downloadDescription": "Download VoxEdit on Windows and MacOsX for FREE",
+		"modelingDescription": "VoxEdit provides a robust set of tools and our user-friendly interface for modeling.",
+		"animationDescription": "VoxEdit allows you to rig and animate anything that you want using the timeline via an easy-to-use keyframing mode.",
+
+		"keyword": "sandbox, voxeditor, voxedit, voxel editor, voxel art, 3D voxel game, voxel artists, voxel game art, voxel market, blockchain dapp, PC voxel game, PC voxel art",
+		"downloadKeyword": "sandbox, voxeditor, voxedit, voxel editor, voxel art, 3D voxel game, voxel artists, voxel game art, voxel market, blockchain dapp, PC voxel game, PC voxel art, voxedit",
+		"modelingKeyword": "voxedit, modeling, voxel, voxelart",
+		"animationKeyword": "voxedit, rigging, skeleton, animation, voxel, voxelart",
+
+
+		"properties":[
+			{
+				"name":"og:title",
+				"content":"The Sandbox | Create and Animate Voxel Assets Using VoxEditor" 
+			},
+			{
+				"name":"og:description",
+				"content":"Create, animate, and play in The Sandbox. VoxEditor is the first software that allows you to create your own voxel models, rig them, and animate them in no time." 
+			},
+			{
+				"name":"og:url",
+				"content":"https://voxedit.io/" 
+			},
+			{
+				"name":"og:site_name",
+				"content":"VoxEdit" 
+			},
+			{
+				"name":"og:image",
+				"content":"https://www.sandbox.game/media/VoxEdit-Create-Animate-Play.jpg" 
+			}
+		],
+		"downloadProperties":[
+			{
+				"name":"og:title",
+				"content":"Download Vox Edit - Free Voxel Editor" 
+			},
+			{
+				"name":"og:description",
+				"content":"Download VoxEdit on Windows and MacOsX for FREE" 
+			},
+			{
+				"name":"og:url",
+				"content":"https://voxedit.io/download.html" 
+			},
+			{
+				"name":"og:site_name",
+				"content":"VoxEdit" 
+			},
+			{
+				"name":"og:image",
+				"content":"https://www.sandbox.game/media/The-Sandbox-Timelapse-Voxel-Cartoon-Character.gif" 
+			}
+		],
+		"modelingProperties":[
+			{
+				"name":"og:title",
+				"content":"VoxEdit - Voxel Modeling" 
+			},
+			{
+				"name":"og:description",
+				"content":"VoxEdit provides a robust set of tools and our user-friendly interface for modeling." 
+			},
+			{
+				"name":"og:url",
+				"content":"https://voxedit.io/modeling.html" 
+			},
+			{
+				"name":"og:site_name",
+				"content":"VoxEdit" 
+			},
+			{
+				"name":"og:image",
+				"content":"https://www.sandbox.game/media/The-Sandbox-Timelapse-Voxel-Art-Bus.gif" 
+			}
+		],
+		"animationProperties":[
+			{
+				"name":"og:title",
+				"content":"VoxEdit - Voxel Animating & Rigging" 
+			},
+			{
+				"name":"og:description",
+				"content":"VoxEdit allows you to rig and animate anything that you want using the timeline via an easy-to-use keyframing mode." 
+			},
+			{
+				"name":"og:url",
+				"content":"https://voxedit.io/animation.html" 
+			},
+			{
+				"name":"og:site_name",
+				"content":"VoxEdit" 
+			},
+			{
+				"name":"og:image",
+				"content":"https://www.sandbox.game/media/The-Sandbox-VoxEdit-Character-Rigging-Video-1.gif" 
+			}
+		],
+
+		"itemprops":[
+			{
+				"name":"name",
+				"content":"The Sandbox"
+			},
+			{
+				"name":"description",
+				"content":"The Sandbox is a decentralized community-driven gaming ecosystem for creators to monetize voxel assets and gaming experiences in the blockchain!"
+			},
+			{
+				"name":"image",
+				"content":"http://www.sandbox.game/images/logo.png"
+			}
+		],
+		"twitters":[
+			{
+				"name":"twitter:title",
+				"content": "The Sandbox | Create and Animate Voxel Assets Using VoxEditor"
+			},
+			{
+				"name":"twitter:description",
+				"content": "Create, animate, and play in The Sandbox. VoxEditor is the first software that allows you to create your own voxel models, rig them, and animate them in no time."
+			},
+			{
+				"name":"twitter:card",
+				"content": "A Decentralized Gaming Platform Made By Players."
+			},
+			{
+				"name":"twitter:site",
+				"content": "@voxedit"
+			},
+			{
+				"name":"twitter:creator",
+				"content": "@voxedit"
+			},
+			{
+				"name":"twitter:creator",
+				"content": "https://www.sandbox.game/media/VoxEdit-Create-Animate-Play.jpg"
+			}
+		],
+		"downloadTwitters":[
+			{
+				"name":"twitter:title",
+				"content": "Download Vox Edit - Free Voxel Editor"
+			},
+			{
+				"name":"twitter:description",
+				"content": "Download VoxEdit on Windows and MacOsX for FREE"
+			},
+			{
+				"name":"twitter:card",
+				"content": "VoxEdit - Free Voxel Editor Software to Model and Animate Voxels"
+			},
+			{
+				"name":"twitter:site",
+				"content": "@voxedit"
+			},
+			{
+				"name":"twitter:creator",
+				"content": "@voxedit"
+			},
+			{
+				"name":"twitter:creator",
+				"content": "https://www.sandbox.game/media/The-Sandbox-Timelapse-Voxel-Cartoon-Character.gif"
+			}
+		],
+		"modelingTwitters":[
+			{
+				"name":"twitter:title",
+				"content": "VoxEdit - Voxel Modeling"
+			},
+			{
+				"name":"twitter:description",
+				"content": "VoxEdit provides a robust set of tools and our user-friendly interface for modeling."
+			},
+			{
+				"name":"twitter:card",
+				"content": "VoxEdit - Free Voxel Editor Software to Model and Animate Voxels"
+			},
+			{
+				"name":"twitter:site",
+				"content": "@voxedit"
+			},
+			{
+				"name":"twitter:creator",
+				"content": "@voxedit"
+			},
+			{
+				"name":"twitter:creator",
+				"content": "https://www.sandbox.game/media/The-Sandbox-Timelapse-Voxel-Art-Bus.gif"
+			}
+		],
+		"animationTwitters":[
+			{
+				"name":"twitter:title",
+				"content": "VoxEdit - Voxel Animating & Rigging"
+			},
+			{
+				"name":"twitter:description",
+				"content": "VoxEdit allows you to rig and animate anything that you want using the timeline via an easy-to-use keyframing mode."
+			},
+			{
+				"name":"twitter:card",
+				"content": "VoxEdit - Free Voxel Editor Software to Model and Animate Voxels"
+			},
+			{
+				"name":"twitter:site",
+				"content": "@voxedit"
+			},
+			{
+				"name":"twitter:creator",
+				"content": "@voxedit"
+			},
+			{
+				"name":"twitter:creator",
+				"content": "https://www.sandbox.game/media/The-Sandbox-VoxEdit-Character-Rigging-Video-1.gif"
+			}
+		]
+	},
+
+	"header": {
+		"nav_list_skip": "Skip navigation",
+		"selectedLanguage": {
+			"name": "English",
+			"class": "nav-language_English",
+			"image":"../images/English_Flag_Icon.png",
+			"link": ""
+		},
+		"language": [
+			{
+				"name": "English",
+				"class": "nav-language_English",
+				"image":"../images/English_Flag_Icon.png",
+				"link": "/"
+			},
+			{
+				"name": "Japanese",
+				"class": "nav-language_Japanese",
+				"image":"../images/Japanese_Flag_Icon.png",
+				"link": "/jp"
+			},
+			{
+				"name": "Chinese",		
+				"class": "nav-language_Chinese",
+				"image":"../images/Chinese_Flag_Icon.png",
+				"link": "/cn"
+			},
+			{
+				"name": "Korean",
+				"class": "nav-language_Korean",
+				"image":"../images/Korean_Flag_Icon.png",
+				"link": "/kr"
+			}
+			
+		], 
+		"nav2":[
+			{
+				"name": "Download",
+				"list_class": "nav-list_item",
+				"link_class": "nav-list_link",
+				"url": "download.html"
+			},
+			{
+				"name": "Creator Fund",
+				"list_class": "nav-list_item",
+				"link_class": "nav-list_link",
+				"url": "http://fund.sandbox.game/"
+			},
+			
+			{
+				"name": "FAQs",
+				"list_class": "nav-list_item",
+				"link_class": "nav-list_link nav-list_team",
+				"url": 	"http://sandbox.game/faqs.html"
+			}
+		],
+		"cta": "Join"
+	},
+
+	"banner": {
+
+		"title": "create. animate. play.",
+		"items": [
+			{ "title": "create." }, 
+			{ "title": "animate." },
+			{ "title": "play." }
+		],
+		"download_btn": "DOWNLOAD NOW",
+		"download_link": "download.html",
+		"bg_img": "../images/Editor-banner1.png",
+		"mark_logo": "../images/mark-article.png", 
+		"subtitle": "VoxEdit is the first software that allows you to create your own voxel models, rig them, and animate them in no time.",
+		"ative_submenu": [
+			{
+				"name": "Modeling",
+				"link": "modeling.html",
+				"class": "activelink",
+				"active": "modeling"
+			},
+			{
+				"name": "Animation",
+				"link": "animation.html",
+				"class": "activelink",
+				"active": "animation"
+			}
+		],
+		"nonative_submenu": [
+			{
+				"name": "Tilemap 3D",
+				"link": "",
+				"class": "notactivelink",
+				"active": "tilemap"
+			}
+		]
+	},
+	"animation": {
+		"title": "Animation overview",
+		"creation": {
+			"title": "ANIMATE YOUR CREATIONS",
+			"text": "A game changer in the voxel creation world. With our Skeleton System, VoxEdit allows you to rig and animate anything that you want using the timeline via an easy-to-use keyframing mode.",
+			"image": "../images/VoxEditAnimation.gif",
+			"subtitle": "Features",
+			"items": [
+				{"name": "Animation! Bring your creation to life"},
+				{"name": "Skeleton System"},
+				{"name": "Cut & Rig"},
+				{"name": "Powerful Timeline"},
+				{"name": "Keyframing interpolation"},
+				{"name": "Curves"},
+				{"name": "Animations integrated in one file"}
+			]
+		},
+		"menubar":{
+			"title": "Menu Bar",
+			"items": [
+				{
+					"image": "../images/m8.png",
+					"text": "Move, Rotate or Scale the bones for animation"
+				},
+				{
+					"image": "../images/m8.png",
+					"text": "Turn on/off the boxes of the model"
+				},
+				{
+					"image": "../images/m8.png",
+					"text": "Work in Global or Local mode"
+				},
+				{
+					"image": "../images/m8.png",
+					"text": "View your work in Voxels or without Edges"
+				},
+				{
+					"image": "../images/m8.png",
+					"text": "Turn on/off the Skeleton bones"
+				},
+				{
+					"image": "../images/m8.png",
+					"text": "Turn on/off emissivity"
+				}
+			]
+		},
+		"skelecton": {
+			"title": "Skeleton system",
+			"items":[
+				{
+					"image": "../images/skelecton.png",
+					"class": "skelection-content-item1"
+				},
+				{
+					"image": "../images/skelecton2.png",
+					"class": "skelection-content-item2"
+				},
+				{
+					"image": "../images/skelecton3.png",
+					"class": "skelection-content-item3"
+				}
+			],
+			"text": "VoxEdit allows you to rig your model using a hierarchy system that lets you attach 3D model parts to skeleton bones ready to be animated in the Timeline."
+		},
+		"timeline": {
+			"title": "Timeline",
+			"text": "VoxEdit is the first voxel software that allows you to not only rig your model with the Skeleton System but also create animations.<br/><br/>Create all the animations that you want to make a better experience for your model inside the game.<br/><br/> Animate all your models with our Timeline using keyframing interpolation in a friendly interface.<br/><br/> Move keyframes, stretch the interpolation between them, or even add curves for a more polished animation: the choice is yours.",
+			"image": "../images/timeline.png"
+		},
+
+		"library": {
+			"title": "Library",
+			"text": "Import all types of files into the Library to assign them to a bone in the Skeleton system.<br/><br/>You can import .obj, .vox and .vxm.", 
+			"image": "../images/library.png"
+		}
+	},
+
+	"modeling": {
+		"title": "Modeling overview",
+		"tools": {
+			"title": "POWERFUL & EASY TO USE MODELING TOOLS",
+			"text": "Make the most of your creativity! From beginners to experts, anyone can make amazing creations thanks to our robust set of tools and our user-friendly interface.",
+			"image": "../images/VoxEditModeling.gif",
+			"subtitle": "Features",
+			"items": [
+				{"name": "All-in-One software (Model, Rig, and Animate)"},
+				{"name": "Incredible performance"},
+				{"name": "Available for Windows and Mac"},
+				{"name": "Amazing voxel creation tools"},
+				{"name": "High level of detail models"},
+				{"name": "Advanced Renderer"},
+				{"name": "Versatile Color Palette"},
+				{"name": "Friendly 3D enviroment"}
+			]
+		},
+		"toolbar": {
+			"title2": "Tools",
+			"title1": "Models",
+			"items1": [
+							
+				{
+					"image": "../images/toolbar3.png",
+					"text": "Create amazing models from scratch"
+				},
+				
+				{
+					"image": "../images/toolbar5.png",
+					"text": "Put color to your model"
+				},
+				
+				{
+					"image": "../images/toolbar7.png",
+					"text": "Erase voxel in different ways"
+				} 
+				
+			],
+			"items2":[
+				{
+					"image": "../images/toolbar2.png",
+					"text": "Create individuals voxels"
+				},
+				{
+					"image": "../images/toolbar4.png",
+					"text": "Fill the box with voxels to start crafting"
+				},
+				{
+					"image": "../images/toolbar6.png",
+					"text": "Fill the walls with voxels"
+				},
+				{
+					"image": "../images/toolbar8.png",
+					"text": "Paint directly to the voxel"
+				},
+				{
+					"image": "../images/PivotIcon.png",
+					"text": "Define a custom pivot position"
+				}
+			]
+			
+		},
+		"menubar": {
+			"title": "Menu Bar",
+			"items": [
+				{
+					"image": "../images/m1.png",
+					"text": "Toggle within the Modeling and the Skeleton screen"
+				},
+				{
+					"image": "../images/m2.png",
+					"text": "Mirror your work through all the axes"
+				},
+				{
+					"image": "../images/m3.png",
+					"text": "Rotate your model in all 3 axes"
+				},
+				{
+					"image": "../images/m4.png",
+					"text": "Visualize a Voxel, Quad, or Render view of the model"
+				},
+				{
+					"image": "../images/m5.png",
+					"text": "Increase or decrease the amount of voxels for more or less details"
+				},
+				{
+					"image": "../images/m6.png",
+					"text": "Crop your model so you don’t waste unused space"
+				},
+				{
+					"image": "../images/m7.png",
+					"text": "Set up the Canvas. It can be small or super big"
+				},
+				{
+					"image": "../images/m8.png",
+					"text": "Reset the camera"
+				}
+			]
+		},
+		"colorpalette": {
+			"title": "Color Palette",
+			"items": [
+				{
+					"image": "../images/ColorPalette.png",
+					"text": "Choose easily any color for your work"
+				},
+				{
+					"image": "../images/Saved_Colors.png",
+					"text": "Save your own palette or import an existing one"
+				}
+			],
+			"itemsIcon": [
+				{
+					"image": "../images/ColorPaleteSaveIcon.png",
+					"text": "Save the color in your library"	
+				},
+				{
+					"image": "../images/ColorPaleteEmissiveIcon.png",
+					"text": "Turn on/off emissivity in your color"	
+				}
+			]
+
+		},
+
+		"iexport": {
+			"title": "Import / Export",
+			"text": "Vox Editor supports several standards of 3D file format, including:",	
+			"items": [
+				{
+					"text": ".obj"
+				},
+				{
+					"text": ".vox"
+				},
+				{
+					"text": "fbx"
+				},
+				{
+					"text": ".vxm and vxr (VoxEdit format)"
+				}
+				
+			]
+		}
+
+	},
+	
+
+	"download":{
+		"banner_img": "../images/VoxEditPageHeader.png",
+		"title": "IT ALL STARTS HERE",
+		"subtitle1": "VoxEdit is the first software that allows you to create your own voxel models, rig them and animate them in no time.",
+		"subtitle2": "Download our Alpha for FREE now and start creating!",
+		"requirement1": "VoxEdit requires the latest version of Java installed on your computer in order to run",
+		"requirement2": "Download the lastest version of Java for your operating system Java",
+		"require_link": "https://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html",
+		"version": "Alpha release v0.3.0",
+		"btn_title": "DOWNLOAD", 
+		"win_description": "Windows 7 and up", 
+		"mac_description": "OSX Mavericks and up",
+		"linux_description": "Linux",
+		"win_link": "https://www.voxedit.io/download/VoxEdit-Alpha-v0.3.0-WIN.zip",
+		"mac_link": "https://www.voxedit.io/download/VoxEdit-Alpha-v0.3.0-OSX.pkg",
+		"linux_link": "https://www.voxedit.io/download/VoxEdit-Alpha-v0.3.0-LINUX.zip",
+		"win_img": "../images/WindowsLogo.png",
+		"mac_img": "../images/AppleLogo.png",
+		"linux_img": "../images/LinuxLogo.png",
+		"upcomingFeatures": "../images/VoxEditUpcomingFeatures.png",
+		"changelog" : {
+			"title": "Changelog",
+			"date": "December 21st, 2018 - v0.3.0",
+			"log_list": [
+				"Added a Linux version",
+				"Undo with ctrl+z (Win)",
+				"Redo with ctrl+y (Win)",
+				"Undo with cmd+z (Mac)",
+				"Redo with cmd+y (Mac)",
+				"10 steps for undo/redo",
+				"CrashLogs",
+				"Java embedded in windows",
+				"Bug fixing"
+			]
+		}
+	},
+
+	"feature": {
+		"title": "VoxEditor features",
+		"items": [
+			{ 
+				"title": "Modeling",
+				"image": "../images/modeling.jpg",
+				"content": "Make the most of your creativity with a robust set of tools created for anyone to start making amazing stuff right away with our super user-friendly interface.",
+				"url": "modeling.html"
+			},
+			{ 
+				"title": "Animation",
+				"image": "../images/animation.jpg",
+				"content": "Make the most of your creativity with a robust set of tools created for anyone to start making amazing stuff right away with our super user-friendly interface.",
+				"url": "animation.html"
+			},
+			{ 
+				"title": "Tilemap (coming soon)",
+				"image": "../images/tilemap.jpg",
+				"content": "Make the most of your creativity with a robust set of tools created for anyone to start making amazing stuff right away with our super user-friendly interface.",
+				"url": ""
+			}
+		]
+	},
+	"artists":{
+		"title": "What our Artists are creating",
+		"items": [
+			{ 
+				"title": "Racing Monster",
+				"image": "../images/racing.png",
+				"owner": "William Santacruz"
+			},
+			{ 
+				"title": "Warrior Lizard",
+				"image": "../images/warrior.png",
+				"owner": "Thibault"
+			},
+			{ 
+				"title": "Spaceship",
+				"image": "../images/spaceship.png",
+				"owner": "Nicolás Morrone"
+			},
+			{ 
+				"title": "Animal",
+				"image": "../images/animal.png",
+				"owner": "Agustín Ahibe"
+			}
+		]
+	},
+	"footer": {
+		"banner": {
+			"title": "JOIN OUR COMMUNITY",
+			"description":  "Be part of our amazing community and stay tuned for the news.",
+			"link_title": "Join us",
+			"link": "https://community.sandbox.game/en"
+
+		},
+		"pages_title": "Pages",
+		"social_title": "Social",
+		"social": [
+			{
+				"url": "http://medium.com/sandbox-game",
+				"image": "../images/medium.png",
+				"alt": "Medium"
+			},
+			{
+				"url": "https://twitter.com/voxedit",
+				"image": "../images/f-twitter.png",
+				"alt": "Twitter"
+			},
+			{
+				"url": "http://www.pixowl.com",
+				"image": "../images/pixowl.png",
+				"alt": "Pixowl website"
+			}
+
+		],
+		"pages1": [
+			{
+				"text": "News",
+				"url": "http://medium.com/sandbox-game",
+				"target": "_blank"
+			},
+			{
+				"text": "Create",
+				"url": "/create",
+				"target": ""
+			},
+			{
+				"text": "Game",
+				"url": "/game",
+				"target": ""
+			},
+			{
+				"text": "Editor",
+				"url": "http://www.voxedit.io",
+				"target": ""
+			}
+		],
+		"pages2": [
+			{
+				"text": "Whitepaper",
+				"url": "http://community.sandbox.game/en",
+				"target": ""
+			},
+			{
+				"text": "About Us",
+				"url": "/aboutus.html",
+				"target": ""
+			},
+			{
+				"text": "Marketplace",
+				"url": "http://community.sandbox.game/en",
+				"target": ""
+			},
+			{
+				"text": "FAQs",
+				"url": "/faqs.html",
+				"target": ""
+			}
+		],
+		"copywrite": "Copyright © 2012-2019, The Sandbox. All Rights Reserved."
+
+	}
+}

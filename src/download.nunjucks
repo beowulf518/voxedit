@@ -1,0 +1,96 @@
+{% extends '_layouts/download.nunjucks' %}
+
+
+{% import '_modules/header/header.nunjucks' as header %}
+
+{% import '_modules/footer/footer.nunjucks' as footer %}
+
+
+{% block content %}
+<header class="zone zone-header">
+  {{ header.content() }}
+</header>
+<main id="content">
+   
+    <div class="download-zone">
+        <div class="download-banner">
+            <img class="download-banner-img" src="{{_.download.banner_img}}" />
+        </div>
+        
+    </div>
+   
+
+    {# <a href="https://discord.gg/vAe4zvY" class="hero-discord">
+      <img src="../images/Discord-Logo-Color.svg" alt="" class="hero-telegram_img">
+    </a> #}
+
+    <div class="download-content">
+        <div class="download-section"> 
+            <div class="download-section-header">
+                <h3 class="download-section-header-title">{{_.download.title}}</h3>
+                <p>{{_.download.subtitle1}}</p>
+                <p>{{_.download.subtitle2}}</p>
+                <p class="editor-version">{{_.download.version}}</p>
+            </div>
+           
+            <hr class="download-divider">
+            <div class="download-btn-group">
+                <div class="download-btn-windows download-btn-item">
+                    <a href="{{_.download.win_link}}">
+                        <div class="download-button">
+                            <img src="{{_.download.win_img}}"/>
+                            <p>{{_.download.btn_title}}</p>
+                        </div>
+                    </a>
+                    <p class="download-button-description">{{_.download.win_description}}</p>
+                </div>
+                <div class="download-btn-mac download-btn-item">
+                    <a href="{{_.download.mac_link}}">
+                        <div class="download-button">
+                            <img src="{{_.download.mac_img}}"/>
+                            <p>{{_.download.btn_title}}</p>
+                        </div>
+                    <a>
+                    <p class="download-button-description">{{_.download.mac_description}}</p>
+                </div>
+                <div class="download-btn-linux download-btn-item">
+                    <a href="{{_.download.linux_link}}">
+                        <div class="download-button">
+                            <img src="{{_.download.linux_img}}"/>
+                            <p>{{_.download.btn_title}}</p>
+                        </div>
+                    <a>
+                    <p class="download-button-description">{{_.download.linux_description}}</p>
+                </div>
+            </div>
+            <div class="download-requirement">
+                <p>Please Read!</p>
+                <p class="requirement-description">{{_.download.requirement1}}</p>
+                <a href="{{_.download.require_link}}" target="_blank" class="requirement-link">{{_.download.requirement2}}</a> 
+            </div>
+
+            <div class="download-changelog">
+                <p class="changelog-title">{{_.download.changelog.title}}</p>
+                <p class="changelog-date">{{_.download.changelog.date}}</p>
+                <ul>    
+                    {% for item in _.download.changelog.log_list %}
+                        <li>{{item}}</li>
+                    {% endfor %}
+                </ul>
+                
+                
+            </div>
+
+
+        </div>
+        
+    </div>
+    <div class="download-feature">
+            <img src="{{_.download.upcomingFeatures}}" />
+    </div>
+    <div class="zone footer-zone">
+        {{ footer.content() }}
+    </div>
+
+</main>
+{% endblock %}

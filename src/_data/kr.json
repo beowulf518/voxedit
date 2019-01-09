@@ -1,0 +1,583 @@
+{
+	"global": {
+		"lang": "kr",
+		"titleTag": "The Sandbox",
+		"description": "The Sandbox is a decentralized community-driven gaming ecosystem for creators to monetize voxel assets and gaming experiences in the blockchain!",
+		"properties": [
+            {
+              "name": "og:title",
+              "content": "플레이어가 만드는 분산형 게이밍 플랫폼"
+            },
+            {
+                "name": "og:description",
+                "content": "샌드박스는 크리에이터가 블록체인에서 복셀 에셋 및 게이밍 경험을 통해 수익을 창출할 수 있는 분산형 커뮤니티 중심 게이밍 플랫폼입니다."
+            },
+            {
+              "name": "og:url",
+              "content": "https://sandbox.game"
+            },
+            {
+              "name": "og:site_name",
+              "content": "샌드박스"
+            },
+            {
+              "name": "og:image",
+              "content": "http://www.sandbox.game/images/logo.png"
+            }
+          ],
+          "itemprops": [
+            {
+              "name": "name",
+              "content": "샌드박스"
+            },
+           {
+                "name": "description",
+                "content": "샌드박스는 크리에이터가 블록체인에서 복셀 에셋 및 게이밍 경험을 통해 수익을 창출할 수 있는 분산형 커뮤니티 중심 게이밍 플랫폼입니다."
+              },
+            {
+              "name": "image",
+              "content": "http://www.sandbox.game/images/logo.png"
+            }
+          ],
+          "twitters": [
+            {
+              "name": "twitter:title",
+              "content": "플레이어가 만드는 분산형 게이밍 플랫폼"
+            },
+            {
+                "name": "twitter:description",
+                "content": "샌드박스는 크리에이터가 블록체인에서 복셀 에셋 및 게이밍 경험을 통해 수익을 창출할 수 있는 분산형 커뮤니티 중심 게이밍 플랫폼입니다."
+              },
+            {
+              "name": "twitter:card",
+             "content": "플레이어가 만드는 분산형 게이밍 플랫폼"
+            },
+            {
+              "name": "twitter:site",
+              "content": "@thesandboxgame"
+            },
+            {
+              "name": "twitter:creator",
+              "content": "@thesandboxgame"
+            },
+            {
+              "name": "twitter:creator",
+              "content": "http://www.sandbox.game/images/logo.png"
+            }
+          ]
+	},
+
+	"header": {
+    "nav_list_skip": "Skip navigation",
+    "selectedLanguage": {
+      "name": "Korean",
+      "class": "nav-language_Korean",
+      "image": "../images/Korean_Flag_Icon.png",
+      "link": "/kr"
+    },
+    "language": [
+      {
+        "name": "English",
+        "class": "nav-language_English",
+        "image": "../images/English_Flag_Icon.png",
+        "link": "/"
+      },
+      {
+        "name": "Japanese",
+        "class": "nav-language_Japanese",
+        "image": "../images/Japanese_Flag_Icon.png",
+        "link": "/jp"
+      },
+      {
+        "name": "Chinese",
+        "class": "nav-language_Chinese",
+        "image": "../images/Chinese_Flag_Icon.png",
+        "link": "/cn"
+      },
+      {
+        "name": "Korean",
+        "class": "nav-language_Korean",
+        "image": "../images/Korean_Flag_Icon.png",
+        "link": "/kr"
+      }
+    ],
+		"nav2":[
+			{
+				"name": "다운로드",
+				"list_class": "nav-list_item",
+				"link_class": "nav-list_link",
+				"url": "download.html"
+			},
+			{
+				"name": "크리에이터 기금",
+				"list_class": "nav-list_item",
+				"link_class": "nav-list_link",
+				"url": "http://fund.sandbox.game/"
+			},
+		
+			{
+				"name": "FAQ",
+				"list_class": "nav-list_item",
+				"link_class": "nav-list_link nav-list_team",
+				"url": 	"http://sandbox.game/faqs.html"
+			}
+		],
+		"cta": "Join"
+	},
+
+	"banner": {
+        "title": "크리에이션. 애니메이션. 플레이.",
+        "items": [
+          {
+            "title": "크리에이션."
+          },
+          {
+            "title": "애니메이션."
+          },
+          {
+            "title": "플레이."
+          }
+        ],
+        "download_btn": "지금 다운로드하기",
+            "download_link": "download.html",
+        "bg_img": "../images/Editor-banner1.png",
+        "mark_logo": "../images/mark-article.png",
+        "subtitle": "VoxEdit는 자신만의 복셀 모델을 만들고, 리그하고, 즉시 애니메이션을 만들 수 있는 최초의 소프트웨어입니다.",
+        "ative_submenu": [
+          {
+            "name": "모델링",
+            "link": "modeling.html",
+            "class": "activelink",
+            "active": "modeling"
+          },
+          {
+            "name": "애니메이션",
+            "link": "animation.html",
+            "class": "activelink",
+            "active": "animation"
+          }
+        ],
+        "nonative_submenu": [
+          {
+            "name": "Tilemap 3D",
+            "link": "",
+            "class": "notactivelink",
+            "active": "tilemap"
+          }
+        ]
+    },
+
+	"animation": {
+        "title": "애니메이션 개요",
+        "creation": {
+          "title": "크리에이션 애니메이션",
+          "text": "복셀 크리에이션 월드의 게임 체인저. 우리의 스켈레톤 시스템과 함께 VoxEdit를 사용하면 사용이 간편한 키프레임 모드를 통한 타임라인을 이용하여 어떤 것이든 리그하고 애니메이팅할 수 있습니다.",
+          "image": "../images/VoxEditAnimation.gif",
+          "subtitle": "기능",
+          "items": [
+            {
+              "name": "Animation! Bring your creation to life"
+            },
+            {
+              "name": "Skeleton System"
+            },
+            {
+              "name": "Cut & Rig"
+            },
+            {
+              "name": "Powerful Timeline"
+            },
+            {
+              "name": "Keyframing interpolation"
+            },
+            {
+              "name": "Curves"
+            },
+            {
+              "name": "Animations integrated in one file"
+            }
+          ]
+        },
+        "menubar": {
+          "title": "메뉴 바",
+          "items": [
+              {
+                  "image": "../images/m8.png",
+                  "text": "애니메이션을 위한 뼈의 이동, 회전, 확대/축소"
+              },
+              {
+                  "image": "../images/m8.png",
+                  "text": "모델의 박스 켜기/끄기"
+              },
+              {
+                  "image": "../images/m8.png",
+                  "text": "글로벌 또는 로컬 모드로 작동"
+              },
+              {
+                  "image": "../images/m8.png",
+                  "text": "복셀 안에서 또는 엣지 없이 창작물 보기"
+              },
+              {
+                  "image": "../images/m8.png",
+                  "text": "스켈레톤 뼈 켜기/끄기"
+              },
+              {
+                  "image": "../images/m8.png",
+                  "text": "방사율 켜기/끄기"
+              }
+          ]
+      },
+        "skelecton": {
+          "title": "스켈레톤 시스템",
+          "items": [
+            {
+              "image": "../images/skelecton.png",
+              "class": "skelection-content-item1"
+            },
+            {
+              "image": "../images/skelecton2.png",
+              "class": "skelection-content-item2"
+            },
+            {
+              "image": "../images/skelecton3.png",
+              "class": "skelection-content-item3"
+            }
+          ],
+          "text": "VoxEdit는 타임 라인에서 애니메이팅 준비가 완료된 스켈레톤 뼈대에 3D 모델 파트를 연결할 수 있는 계층 구조 시스템을 사용하여 모델을 리그할 수 있습니다."
+        },
+        "timeline": {
+          "title": "타임라인",
+          "text": "VoxEdit는 스켈레톤 시스템으로 모델을 리그할 수 있을 뿐만 아니라 애니메이션을 만들 수 있는 최초의 복셀 소프트웨어입니다.<br/><br/>게임 내에서 모델에 더 나은 경험을 불어넣고 싶은 애니메이션을 어떤 것이든 만들 수 있습니다.<br/><br/> 친숙한 인터페이스에서 키 프레임 보간을 사용하여 타임라인으로 모든 모델에 애니메이션을 적용할 수 있습니다.<br/><br/> 키 프레임을 이동하거나, 그 사이의 보간을 늘리거나, 커브를 추가해 더 세련된 애니메이션을 만들 수 있습니다. 자유롭게 선택할 수 있습니다.",
+          "image": "../images/timeline.png"
+        },
+        "library": {
+          "title": "라이브러리",
+          "text": "모든 유형의 파일을 라이브러리로 가져와 스켈레톤 시스템의 뼈대에 할당할 수 있습니다.<br/><br/>.obj, .vox, .vxm을 임포팅할 수 있습니다.",
+          "image": "../images/library.png"
+        }
+    },
+      
+    "modeling": {
+        "title": "모델링 개요",
+        "tools": {
+          "title": "강력하고 사용하기 쉬운 모델링 도구",
+          "text": "창의성을 최대한 발휘할 수 있습니다! 초보자부터 전문가까지 누구나 강력한 도구 세트와 사용자 친화적인 인터페이스로 놀라운 작품을 만들 수 있습니다.",
+          "image": "../images/VoxEditModeling.gif",
+          "subtitle": "기능",
+          "items": [
+            {
+              "name": "올인원 소프트웨어(모델, 리그 및 애니메이션)"
+            },
+            {
+              "name": "놀라운 성능"
+            },
+            {
+              "name": "Windows 및 Mac에서 사용 가능"
+            },
+            {
+              "name": "놀라운 복셀 생성 도구"
+            },
+            {
+              "name": "고수준의 디테일 모델"
+            },
+            {
+              "name": "첨단 렌더러"
+            },
+            {
+              "name": "다용도 컬러 팔레트"
+            },
+            {
+              "name": "친숙한 3D 환경"
+            }
+          ]
+        },
+        "toolbar": {
+          "title2": "도구",
+          "title1": "모델",
+          "items1": [
+                          
+              {
+                  "image": "../images/toolbar3.png",
+                  "text": "빈 화면부터 시작해 놀라운 모델 생성하기"
+              },
+              
+              {
+                  "image": "../images/toolbar5.png",
+                  "text": "모델에 색상 넣기"
+              },
+              
+              {
+                  "image": "../images/toolbar7.png",
+                  "text": "다른 방법으로 복셀 지우기"
+              } 
+              
+          ],
+          "items2":[
+              {
+                  "image": "../images/toolbar2.png",
+                  "text": "개인 복셀 생성하기"
+              },
+              {
+                  "image": "../images/toolbar4.png",
+                  "text": "박스를 복셀로 채우고 크래프팅 시작"
+              },
+              {
+                  "image": "../images/toolbar6.png",
+                  "text": "벽을 복셀로 채우기"
+              },
+              {
+                  "image": "../images/toolbar8.png",
+                  "text": "복셀에 직접 페인팅하기"
+              },
+              {
+                  "image": "../images/PivotIcon.png",
+                  "text": "맞춤형 피봇 위치 정의"
+              }
+          ]
+          
+      },
+      "menubar": {
+        "title": "메뉴 바",
+        "items": [
+            {
+                "image": "../images/m1.png",
+                "text": "모델러 및 리거 화면 전환"
+            },
+            {
+                "image": "../images/m6.png",
+                "text": "모델 크롭으로 미사용 공간 줄이기"
+            },
+            {
+                "image": "../images/m3.png",
+                "text": "3축 모두에서 에셋 회전하기"
+            },
+            {
+                "image": "../images/m4.png",
+                "text": "복셀 안에서, 쿼드 안에서 또는 엣지 없이 창작물 보기"
+            },
+            {
+                "image": "../images/m5.png",
+                "text": "복셀 양 증가/감소로 디테일 증가/감소하기"
+            },
+            {
+                "image": "../images/EmissiveIcon.png",
+                "text": "에미시브 완드로 복셀에 글로우 추가하기"
+            },
+            {
+                "image": "../images/m2.png",
+                "text": "모델 대칭을 위해 모든 축에서 거울 사용"
+            },
+            {
+                "image": "../images/m8.png",
+                "text": "카메라 재설정"
+            },
+            
+            {
+                "image": "../images/m7.png",
+                "text": "캔버스를 설정하세요. 작거나 아주 크게 만들 수 있습니다"
+            }
+            
+          ]
+        },
+        "colorpalette": {
+          "title": "색상 팔레트",
+          "items": [
+              {
+                  "image": "../images/ColorPalette.png",
+                  "text": "작업에 필요한 모든 색상을 쉽게 선택할 수 있습니다"
+              },
+              {
+                  "image": "../images/Saved_Colors.png",
+                  "text": "나만의 팔레트 저장 또는 기존 팔레트 가져오기"
+              }
+          ],
+          "itemsIcon": [
+              {
+                  "image": "../images/ColorPaleteSaveIcon.png",
+                  "text": "라이브러리에 색상 저장"	
+              },
+              {
+                  "image": "../images/ColorPaleteEmissiveIcon.png",
+                  "text": "색상의 방사율 켜기/끄기"	
+              }
+          ]
+    
+        },
+        "iexport": {
+          "title": "가져오기/내보내기",
+          "text": "VoxEdit는 다음을 포함한 여러 3D 파일 표준 형식들을 지원합니다:",
+          "items": [
+            {
+              "text": ".obj"
+            },
+            {
+              "text": ".vox"
+            },
+            {
+              "text": "fbx"
+            },
+            {
+              "text": ".vxm (VoxEdit 형식)"
+            }
+          ]
+        }
+    },
+    "download":{
+        "banner_img": "../images/VoxEditPageHeader.png",
+        "title": "모든 것은 여기에서 시작됩니다",
+        "subtitle1": "VoxEditor는 자신만의 복셀 모델을 만들고, 리그하고, 즉시 애니메이션을 만들 수 있는 최초의 소프트웨어입니다.",
+        "subtitle2": "알파 버전을 지금 무료로 다운로드하고 크리에이션을 시작하세요!",
+        "requirement1": "VoxEidt의 실행을 위해서는 컴퓨터에 최신 버전의 Java가 설치되어야 합니다",
+        "requirement2": "자신의 운영체제에 맞는 최신 버전의 Java를 다운로드하세요",
+        "require_link": "https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html",
+        "version": "알파 릴리이즈 v0.3.0",
+        "btn_title": "다운로드", 
+        "win_description": "Windows 7 이상", 
+        "mac_description": "OSX Mavericks 이상",
+        "linux_description": "Linux",
+        "win_link": "https://www.voxedit.io/download/VoxEdit-Alpha-v0.3.0-WIN.zip",
+        "mac_link": "https://www.voxedit.io/download/VoxEdit-Alpha-v0.3.0-OSX.pkg",
+        "linux_link": "https://www.voxedit.io/download/VoxEdit-Alpha-v0.3.0-LINUX.zip",
+        "win_img": "../images/WindowsLogo.png",
+        "mac_img": "../images/AppleLogo.png",
+        "linux_img": "../images/LinuxLogo.png",
+        "upcomingFeatures": "../images/VoxEditUpcomingFeatures.png",
+		"changelog" : {
+			"title": "변경 로그",
+			"date": "2018년 12월 21일 - v0.3.0",
+			"log_list": [
+				"Linux 버전 추가",
+				"ctrl+z로 실행 취소 (Win)",
+				"ctrl+y로 재실행 (Win)",
+				"cmd+z로 실행 취소 (Mac)",
+				"cmd+y로 재실행 (Mac)",
+				"10단계 실행 취소/재실행",
+				"충돌 로그",
+				"윈도우에 Java 내장",
+				"버그 수정"
+			]
+		}
+    },
+
+    "feature": {
+        "title": "VoxEdit 기능",
+        "items": [
+          {
+            "title": "모델링",
+            "image": "../images/modeling.jpg",
+            "content": "창의성을 최대한 발휘할 수 있습니다! 초보자부터 전문가까지 누구나 강력한 도구 세트와 사용자 친화적인 인터페이스로 놀라운 작품을 만들 수 있습니다.",
+            "url": "modeling.html"
+          },
+          {
+            "title": "애니메이션",
+            "image": "../images/animation.jpg",
+            "content": "복셀 크리에이션 월드의 게임 체인저. 우리의 스켈레톤 시스템과 함께 VoxEdit를 사용하면 사용이 간편한 키프레임 모드를 통한 타임라인을 이용하여 어떤 것이든 리그하고 애니메이팅할 수 있습니다.",
+            "url": "animation.html"
+          },
+          {
+            "title": "타일 ​​맵 (곧 제공 예정)",
+            "image": "../images/tilemap.jpg",
+            "content": "타일맵 3D 시스템을 사용하여 빌딩이나 에펠 탑과 같은 대형 모델을 만들고 게임 내에서 자동으로 빌드할 수 있는 패키지 형태로 시장에 판매할 수 있습니다.",
+            "url": ""
+          }
+        ]
+      },
+      "artists": {
+        "title": "우리 아티스트들이 만들고 있는 것",
+        "items": [
+          {
+            "title": "레이싱 몬스터",
+            "image": "../images/racing.png",
+            "owner": "William Santacruz"
+          },
+          {
+            "title": "워리어 리자드",
+            "image": "../images/warrior.png",
+            "owner": "Thibault"
+          },
+          {
+            "title": "우주선",
+            "image": "../images/spaceship.png",
+            "owner": "Nicolás Morrone"
+          },
+          {
+            "title": "동물",
+            "image": "../images/animal.png",
+            "owner": "Agustín Ahibe"
+          }
+        ]
+    },
+    "footer": {
+        "banner": {
+          "title": "커뮤니티에 가입하세요",
+          "description": "멋진 커뮤니티의 일원이 되면 새로운 소식을 바로 받아볼 수 있습니다.",
+          "link_title": "가입",
+          "link": "https://community.sandbox.game/kr"
+        },
+            "pages_title": "페이지",
+            "social_title": "소셜",
+    
+        "social": [
+          {
+            "url": "http://medium.com/sandbox-game",
+            "image": "../images/medium.png",
+            "alt": "Medium"
+          },
+          {
+            "url": "https://twitter.com/voxedit",
+				    "image": "../images/f-twitter.png",
+            "alt": "Twitter"
+          },
+          {
+            "url": "http://www.pixowl.com",
+            "image": "../images/pixowl.png",
+            "alt": "Pixowl website"
+          }
+        ],
+        "pages1": [
+          {
+            "text": "소식",
+            "url": "http://medium.com/sandbox-game",
+            "target": "_blank"
+          },
+          {
+            "text": "크리에이션",
+            "url": "/kr/create",
+            "target": ""
+          },
+          {
+            "text": "게임",
+            "url": "/kr/game",
+            "target": ""
+          },
+          {
+            "text": "에디터",
+            "url": "http://www.voxedit.io/kr",
+            "target": ""
+          }
+        ],
+        "pages2": [
+          {
+            "text": "백서",
+            "url": "http://community.sandbox.game/kr",
+            "target": ""
+          },
+          {
+            "text": "소개",
+            "url": "/kr/aboutus.html",
+            "target": ""
+          },
+          {
+            "text": "시장",
+            "url": "http://community.sandbox.game/kr",
+            "target": ""
+          },
+          {
+            "text": "FAQ",
+            "url": "/kr/faqs.html",
+            "target": ""
+          }
+        ],
+        "copywrite": "Copyright © 2012-2019, The Sandbox. 판권 소유."
+      }
+}

@@ -1,0 +1,582 @@
+{
+	"global": {
+		"lang": "cn",
+		"titleTag": "The Sandbox",
+		"description": "The Sandbox is a decentralized community-driven gaming ecosystem for creators to monetize voxel assets and gaming experiences in the blockchain!",
+		"properties": [
+      {
+        "name": "og:title",
+        "content": "一个由玩家创建的去中心化游戏平台"
+      },
+      {
+        "name": "og:description",
+        "content": "Sandbox是一个去中心化的社区驱动型游戏生态系统，创作者可将区块链中的体素资产和游戏体验变现得利！"
+      },
+      {
+        "name": "og:url",
+        "content": "https://sandbox.game"
+      },
+      {
+        "name": "og:site_name",
+        "content": "Sandbox"
+      },
+      {
+        "name": "og:image",
+        "content": "http://www.sandbox.game/images/logo.png"
+      }
+    ],
+    "itemprops": [
+      {
+        "name": "name",
+        "content": "Sandbox"
+      },
+      {
+        "name": "description",
+        "content": "Sandbox是一个去中心化的社区驱动型游戏生态系统，创作者可将区块链中的体素资产和游戏体验变现得利！"
+      },
+      {
+        "name": "image",
+        "content": "http://www.sandbox.game/images/logo.png"
+      }
+    ],
+    "twitters": [
+      {
+        "name": "twitter:title",
+        "content": "一个由玩家创建的去中心化游戏平台"
+      },
+      {
+        "name": "twitter:description",
+        "content": "Sandbox是一个去中心化的社区驱动型游戏生态系统，创作者可将区块链中的体素资产和游戏体验变现得利！"
+      },
+      {
+        "name": "twitter:card",
+        "content": "一个由玩家创建的去中心化游戏平台"
+      },
+      {
+        "name": "twitter:site",
+        "content": "@thesandboxgame"
+      },
+      {
+        "name": "twitter:creator",
+        "content": "@thesandboxgame"
+      },
+      {
+        "name": "twitter:creator",
+        "content": "http://www.sandbox.game/images/logo.png"
+      }
+    ]
+	},
+
+	"header": {
+    "nav_list_skip": "Skip navigation",
+    "selectedLanguage": {
+      "name": "Chinese",
+      "class": "nav-language_Chinese",
+      "image": "../images/Chinese_Flag_Icon.png",
+      "link": "/cn"
+    },
+    "language": [
+      {
+        "name": "English",
+        "class": "nav-language_English",
+        "image": "../images/English_Flag_Icon.png",
+        "link": "/"
+      },
+      {
+        "name": "Japanese",
+        "class": "nav-language_Japanese",
+        "image": "../images/Japanese_Flag_Icon.png",
+        "link": "/jp"
+      },
+      {
+        "name": "Chinese",
+        "class": "nav-language_Chinese",
+        "image": "../images/Chinese_Flag_Icon.png",
+        "link": "/cn"
+      },
+      {
+        "name": "Korean",
+        "class": "nav-language_Korean",
+        "image": "../images/Korean_Flag_Icon.png",
+        "link": "/kr"
+      }
+    ],
+		"nav2":[
+			{
+				"name": "下载",
+				"list_class": "nav-list_item",
+				"link_class": "nav-list_link",
+				"url": "download.html"
+			},
+			{
+				"name": "创建者基金",
+				"list_class": "nav-list_item",
+				"link_class": "nav-list_link",
+				"url": "http://fund.sandbox.game/"
+			},
+		
+			{
+				"name": "常见问题",
+				"list_class": "nav-list_item",
+				"link_class": "nav-list_link nav-list_team",
+				"url": 	"http://sandbox.game/faqs.html"
+			}
+		],
+		"cta": "Join"
+	},
+
+	"banner": {
+        "title": "创作、绘制动画、玩游戏。",
+        "items": [
+          {
+            "title": "创作"
+          },
+          {
+            "title": "绘制动画。"
+          },
+          {
+            "title": "玩游戏。"
+          }
+        ],
+        "download_btn": "立即下载",
+            "download_link": "download.html",
+        "bg_img": "../images/Editor-banner1.png",
+        "mark_logo": "../images/mark-article.png",
+        "subtitle": "VoxEdit是首款允许您自行创作体素模型、对体素模型进行装配并实时绘制动画的软件。",
+        "ative_submenu": [
+          {
+            "name": "建模",
+            "link": "modeling.html",
+            "class": "activelink",
+            "active": "modeling"
+          },
+          {
+            "name": "绘制动画",
+            "link": "animation.html",
+            "class": "activelink",
+            "active": "animation"
+          }
+        ],
+        "nonative_submenu": [
+          {
+            "name": "Tilemap 3D",
+            "link": "",
+            "class": "notactivelink",
+            "active": "tilemap"
+          }
+        ]
+    },
+
+	"animation": {
+    "title": "动画绘制概览",
+    "creation": {
+      "title": "为您的创作作品绘制动画",
+      "text": "体素创作世界的游戏改变者。 在我们的骨架系统上，您可使用VoxEdit通过操作简便的关键帧模式设置时间轴，装配并将您想要的任何内容绘制成动画。",
+      "image": "../images/VoxEditAnimation.gif",
+      "subtitle": "特征",
+      "items": [
+        {
+          "name": "Animation! Bring your creation to life"
+        },
+        {
+          "name": "Skeleton System"
+        },
+        {
+          "name": "Cut & Rig"
+        },
+        {
+          "name": "Powerful Timeline"
+        },
+        {
+          "name": "Keyframing interpolation"
+        },
+        {
+          "name": "Curves"
+        },
+        {
+          "name": "Animations integrated in one file"
+        }
+      ]
+    },
+    "menubar": {
+      "title": "菜单栏",
+      "items": [
+          {
+              "image": "../images/m8.png",
+              "text": "移动、旋转或缩放骨骼来绘制动画"
+          },
+          {
+              "image": "../images/m8.png",
+              "text": "打开/关闭模型盒子"
+          },
+          {
+              "image": "../images/m8.png",
+              "text": "在全球联网或本地模式下进行编辑"
+          },
+          {
+              "image": "../images/m8.png",
+              "text": "在体素中查看您的作品或采取无边线模式进行查看"
+          },
+          {
+              "image": "../images/m8.png",
+              "text": "打开/关闭骨架骨骼"
+          },
+          {
+              "image": "../images/m8.png",
+              "text": "打开/关闭辐射系数"
+          }
+      ]
+    },
+    "skelecton": {
+      "title": "骨架系统",
+      "items": [
+        {
+          "image": "../images/skelecton.png",
+          "class": "skelection-content-item1"
+        },
+        {
+          "image": "../images/skelecton2.png",
+          "class": "skelection-content-item2"
+        },
+        {
+          "image": "../images/skelecton3.png",
+          "class": "skelection-content-item3"
+        }
+      ],
+      "text": "VoxEdit允许您使用层次结构系统来装配模型，在层次结构系统上您可将3D模型零件附加到骨架骨骼中，以在时间轴中进行动画处理。"
+    },
+    "timeline": {
+      "title": "时间轴",
+      "text": "VoxEdit是首款体素软件，通过VoxEdit您不仅可以使用骨架系统对您的模型进行装配，还可进行动画绘制。<br/><br/>为获得更佳的体验，创建您想要在游戏内实现的所有模型动画。<br/><br/> 在一个友好的界面中，通过使用关键帧插值进行时间轴设置，为所有模型绘制动画。<br/><br/> 移动关键帧，拉伸关键帧之间的插值，或添加曲线以获得更加精美的动画：您可自由创作。",
+      "image": "../images/timeline.png"
+    },
+    "library": {
+      "title": "库",
+      "text": "将各类文件导入库中，将其分配给骨架系统中的骨骼。<br/><br/>您可以导入.obj、.vox和.vxm文件。",
+      "image": "../images/library.png"
+    }
+  },
+  "modeling": {
+    "title": "建模概览",
+    "tools": {
+      "title": "功能强大、操作简便的建模工具",
+      "text": "充分发挥您的创造力！ 无论是初学者还是专家，任何人均可通过我们强大的工具集和用户友好的界面创作出令人惊叹的作品。",
+      "image": "../images/VoxEditModeling.gif",
+      "subtitle": "特征",
+      "items": [
+        {
+          "name": "集多种功能于一体的软件（建模、装配和绘制动画）"
+        },
+        {
+          "name": "惊人的性能"
+        },
+        {
+          "name": "适用于Windows和Mac系统"
+        },
+        {
+          "name": "出色的体素创作工具"
+        },
+        {
+          "name": "高水平的细节模型"
+        },
+        {
+          "name": "高级渲染器"
+        },
+        {
+          "name": "多功能调色板"
+        },
+        {
+          "name": "友好的3D环境"
+        }
+      ]
+    },
+    "toolbar": {
+      "title2": "工具",
+      "title1": "模型",
+      "items1": [
+                      
+          {
+              "image": "../images/toolbar3.png",
+              "text": "从头开始创建出色的模型"
+          },
+          
+          {
+              "image": "../images/toolbar5.png",
+              "text": "为您的模型上色"
+          },
+          
+          {
+              "image": "../images/toolbar7.png",
+              "text": "以不同方式擦除体素"
+          } 
+          
+      ],
+      "items2":[
+          {
+              "image": "../images/toolbar2.png",
+              "text": "创作个人体素"
+          },
+          {
+              "image": "../images/toolbar4.png",
+              "text": "使用体素对盒子进行填充，开始加工制作"
+          },
+          {
+              "image": "../images/toolbar6.png",
+              "text": "用体素填充墙壁"
+          },
+          {
+              "image": "../images/toolbar8.png",
+              "text": "直接在体素上绘制"
+          },
+          {
+              "image": "../images/PivotIcon.png",
+              "text": "界定一个自定义枢轴位置"
+          }
+      ]
+      
+    },
+    "menubar": {
+      "title": "菜单栏",
+      "items": [
+          {
+              "image": "../images/m1.png",
+              "text": "在建模器和装配器界面之间相互切换"
+          },
+          {
+              "image": "../images/m6.png",
+              "text": "裁剪模型，以免浪费未使用的空间"
+          },
+          {
+              "image": "../images/m3.png",
+              "text": "在所有3个轴上旋转您的资源"
+          },
+          {
+              "image": "../images/m4.png",
+              "text": "在体素、盒子中查看您的作品或采取无边线模式进行查看"
+          },
+          {
+              "image": "../images/m5.png",
+              "text": "对体素数量进行增加或减少，以增减细节"
+          },
+          {
+              "image": "../images/EmissiveIcon.png",
+              "text": "使用Emisive Wand为您的体素添加光晕效果"
+          },
+          {
+              "image": "../images/m2.png",
+              "text": "在所有轴上使用镜像获得对称模型"
+          },
+          {
+              "image": "../images/m8.png",
+              "text": "重置相机"
+          },
+          
+          {
+              "image": "../images/m7.png",
+              "text": "设置画布。 可设置为小型或超大型画布"
+          }
+          
+      ]
+    },
+    "colorpalette": {
+      "title": "调色板",
+      "items": [
+          {
+              "image": "../images/ColorPalette.png",
+              "text": "方便为您的作品选择任何颜色"
+          },
+          {
+              "image": "../images/Saved_Colors.png",
+              "text": "保存您自制的调色板或导入现有调色板"
+          }
+      ],
+      "itemsIcon": [
+          {
+              "image": "../images/ColorPaleteSaveIcon.png",
+              "text": "将颜色保存入库"	
+          },
+          {
+              "image": "../images/ColorPaleteEmissiveIcon.png",
+              "text": "打开/关闭您颜色的辐射系数"	
+          }
+      ]
+
+    },
+    "iexport": {
+      "title": "导入/导出",
+      "text": "Vox Editor支持多种3D文件格式标准，包括：",
+      "items": [
+        {
+          "text": ".obj"
+        },
+        {
+          "text": ".vox"
+        },
+        {
+          "text": "fbx"
+        },
+        {
+          "text": ".vxm（VoxEdit格式）"
+        }
+      ]
+    }
+  },
+  
+  "download":{
+    "banner_img": "../images/VoxEditPageHeader.png",
+    "title": "一切由此展开",
+    "subtitle1": "VoxEditor是首款允许您自行创作体素模型，对体素模型进行装配并实时绘制动画的软件。",
+    "subtitle2": "即刻免费下载我们的Alpha，开启创作之旅！",
+    "requirement1": "您需要在您的电脑上安装最新版本的Java，为VoxEidt提供运行支持。",
+    "requirement2": "为您的操作系统下载最新版本的Java",
+    "require_link": "https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html",
+    "version": "Alpha v0.3.0版本",
+    "btn_title": "下载", 
+    "win_description": "Windows 7及更高版本", 
+    "mac_description": "OSX Mavericks及更高版本",
+    "linux_description": "Linux",
+    "win_link": "https://www.voxedit.io/download/VoxEdit-Alpha-v0.3.0-WIN.zip",
+    "mac_link": "https://www.voxedit.io/download/VoxEdit-Alpha-v0.3.0-OSX.pkg",
+    "linux_link": "https://www.voxedit.io/download/VoxEdit-Alpha-v0.3.0-LINUX.zip",
+    "win_img": "../images/WindowsLogo.png",
+    "mac_img": "../images/AppleLogo.png",
+    "linux_img": "../images/LinuxLogo.png",
+    "upcomingFeatures": "../images/VoxEditUpcomingFeatures.png",
+		"changelog" : {
+			"title": "更改日志",
+			"date": "2018年12月21日 – 0.3.0版",
+			"log_list": [
+				"增加Linux版",
+				"ctrl+z取消（Windows）",
+				"ctrl+y重做（Windows）",
+				"Cmd+z取消（Mac）",
+				"Cmd+y重做（Mac）",
+				"取消/重做10个步骤",
+				"崩溃日志",
+				"Windows内嵌Java",
+				"错误修复"
+			]
+		}
+  },
+
+"feature": {
+    "title": "VoxEdit功能",
+    "items": [
+      {
+        "title": "建模",
+        "image": "../images/modeling.jpg",
+        "content": "充分发挥您的创造力！ 无论是初学者还是专家，任何人均可通过我们强大的工具集和用户友好的界面创作出令人惊叹的作品。",
+        "url": "modeling.html"
+      },
+      {
+        "title": "绘制动画",
+        "image": "../images/animation.jpg",
+        "content": "体素创作世界中的游戏改变者。 在我们的骨架系统上，您可使用VoxEdit通过操作简便的关键帧模式设置时间轴，装配并将您想要的任何内容绘制成动画。",
+        "url": "animation.html"
+      },
+      {
+        "title": "Tilemap（即将推出）",
+        "image": "../images/tilemap.jpg",
+        "content": "通过使用Tilemap 3D系统，您可创建建筑物或艾菲尔铁塔这类大型模型，并将该等模型作为一个可在游戏内自动构建的模型包在市场上进行出售。",
+        "url": ""
+      }
+    ]
+  },
+  "artists": {
+    "title": "我们的艺术家正在进行哪些创作",
+    "items": [
+      {
+        "title": "赛车怪兽",
+        "image": "../images/racing.png",
+        "owner": "William Santacruz"
+      },
+      {
+        "title": "战士蜥蜴",
+        "image": "../images/warrior.png",
+        "owner": "Thibault"
+      },
+      {
+        "title": "飞船",
+        "image": "../images/spaceship.png",
+        "owner": "Nicolás Morrone"
+      },
+      {
+        "title": "动物",
+        "image": "../images/animal.png",
+        "owner": "Agustín Ahibe"
+      }
+    ]
+  },
+  "footer": {
+    "banner": {
+      "title": "加入我们的社区",
+      "description": "成为我们杰出社区的一份子，持续关注最新资讯。",
+      "link_title": "加入我们",
+      "link": "https://community.sandbox.game/cn"
+    },
+    "pages_title": "页面",
+		"social_title": "社交",
+    "social": [
+      {
+        "url": "http://medium.com/sandbox-game",
+        "image": "../images/medium.png",
+        "alt": "Medium"
+      },
+      {
+        "url": "https://twitter.com/voxedit",
+				"image": "../images/f-twitter.png",
+        "alt": "Twitter"
+      },
+      {
+        "url": "http://www.pixowl.com",
+        "image": "../images/pixowl.png",
+        "alt": "Pixowl website"
+      }
+    ],
+    "pages1": [
+      {
+        "text": "资讯",
+        "url": "http://medium.com/sandbox-game",
+        "target": "_blank"
+      },
+      {
+        "text": "创作",
+        "url": "/cn/create",
+        "target": ""
+      },
+      {
+        "text": "游戏",
+        "url": "/cn/game",
+        "target": ""
+      },
+      {
+        "text": "编辑",
+        "url": "http://www.voxedit.io/cn",
+        "target": ""
+      }
+    ],
+    "pages2": [
+      {
+        "text": "白皮书",
+        "url": "http://community.sandbox.game/cn",
+        "target": ""
+      },
+      {
+        "text": "关于我们",
+        "url": "/cn/aboutus.html",
+        "target": ""
+      },
+      {
+        "text": "市场",
+        "url": "http://community.sandbox.game/cn",
+        "target": ""
+      },
+      {
+        "text": "常见问题解答",
+        "url": "/cn/faqs.html",
+        "target": ""
+      }
+    ],
+    "copywrite": "版权所有©2012-2019, The Sandbox。 保留所有权利。"
+  }
+}
