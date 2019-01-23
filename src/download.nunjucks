@@ -36,7 +36,7 @@
             <hr class="download-divider">
             <div class="download-btn-group">
                 <div class="download-btn-windows download-btn-item">
-                    <a href="{{_.download.win_link}}">
+                    <a class="download_win">
                         <div class="download-button">
                             <img src="{{_.download.win_img}}"/>
                             <p>{{_.download.btn_title}}</p>
@@ -64,7 +64,7 @@
                 </div>
             </div>
             <div class="download-requirement">
-                <p>Please Read!</p>
+                <p>{{_.download.readme}}</p>
                 <p class="requirement-description">{{_.download.requirement1}}</p>
                 <a href="{{_.download.require_link}}" target="_blank" class="requirement-link">{{_.download.requirement2}}</a> 
             </div>
@@ -85,8 +85,20 @@
         </div>
         
     </div>
+
     <div class="download-feature">
-            <img src="{{_.download.upcomingFeatures}}" />
+        <p class="feature-title title">{{_.download.feature.title}}</p>
+        <div class="feature-content">
+            {% for item in _.download.feature.items %}
+                <div class="feature-item" onClick="window.location='{{item.url}}';">
+                    <img src="{{item.image}}" />
+                    <div>
+                        <p class="feature-item-title card-title"> {{item.title}} </p>
+                        <p class="feature-item-content card-content"> {{item.content}} </p>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
     </div>
     <div class="zone footer-zone">
         {{ footer.content() }}

@@ -6,7 +6,7 @@
 {% import '_modules/nav/nav.nunjucks' as nav %}
 
 <div class="header fixed {{spec.class}}" >
-<a href="http://www.voxedit.io/">
+<a href="https://www.voxedit.io/">
   <img src="../images/VoxEditLogo2.png" alt="" class="header-img header-img-landing">
   <img src="../images/VoxEditLogo.png" alt="" class="header-img header-img-mobile">
  </a>

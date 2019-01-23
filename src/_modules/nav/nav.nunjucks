@@ -56,13 +56,13 @@
       <div class="nav-list_item nav-list_item-social"><a class="nav-list_link nav-list_social ga-event" href="https://discordapp.com/invite/vAe4zvY" data-gacategory="Community" data-gaactions="Twitter">
         <img src="../images/discord-logo.png" alt="Discard">
       </a></div>
-      <div class="nav-list_item nav-list_item-social"><a class="nav-list_link nav-list_social nav-list_social-first ga-event" href="http://twitter.com/voxedit" data-gacategory="Community" data-gaactions="Twitter">
+      <div class="nav-list_item nav-list_item-social"><a class="nav-list_link nav-list_social nav-list_social-first ga-event" href="https://twitter.com/voxedit" data-gacategory="Community" data-gaactions="Twitter">
         <img src="../images/twitter-logo.png" alt="Twitter">
       </a></div>
-      <div class="nav-list_item nav-list_item-social"><a class="nav-list_link nav-list_social nav-list_social-first ga-event" href="http://medium/sandbox-game" data-gacategory="Community" data-gaactions="Medium">
+      <div class="nav-list_item nav-list_item-social"><a class="nav-list_link nav-list_social nav-list_social-first ga-event" href="https://medium.com/sandbox-game" data-gacategory="Community" data-gaactions="Medium">
         <img src="../images/medium-logo.png" alt="Medium">
         </a></div>
-      <div class="nav-list_item nav-list_item-social"><a class="nav-list_link nav-list_social ga-event nav-sandbox-logo" href="http://www.sandbox.game" data-gacategory="Community" data-gaactions="Sandbox">
+      <div class="nav-list_item nav-list_item-social"><a class="nav-list_link nav-list_social ga-event nav-sandbox-logo" href="https://www.sandbox.game" data-gacategory="Community" data-gaactions="Sandbox">
         <img class="sandbox-logo-icon" src="../images/logo.svg" alt="Sandbox">
       </a></div>
   
@@ -86,13 +86,13 @@
         </div>
 
         <div class="nav-social_list">
-          <div class="nav-list_item nav-social_item"><a class="nav-list_link nav-list_social nav-list_social-first ga-event" href="http://discordapp.com/invite/vAe4zvY" data-gacategory="Community" data-gaactions="Telegram">
+          <div class="nav-list_item nav-social_item"><a class="nav-list_link nav-list_social nav-list_social-first ga-event" href="https://discordapp.com/invite/vAe4zvY" data-gacategory="Community" data-gaactions="Telegram">
             <img src="../images/discord-logo.png" alt="Telegram">
           </a></div>
           <div class="nav-list_item nav-social_item"><a class="nav-list_link nav-list_social nav-list_social-first ga-event" href="https://twitter.com/voxedit" data-gacategory="Community" data-gaactions="Twitter">
             <img src="../images/twitter-logo.png" alt="Twitter">
           </a></div>
-          <div class="nav-list_item nav-social_item"><a class="nav-list_link nav-list_social ga-event" href="http://medium/sandbox-game" data-gacategory="Community" data-gaactions="Medium">
+          <div class="nav-list_item nav-social_item"><a class="nav-list_link nav-list_social ga-event" href="https://medium.com/sandbox-game" data-gacategory="Community" data-gaactions="Medium">
             <img src="../images/medium-logo.png" alt="Medium">
           </a></div>
         </div>

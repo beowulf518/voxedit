@@ -7,6 +7,7 @@ import $ from 'jquery';
 import Nav from '../_modules/nav/nav';
 import Swiper from 'swiper';
 require('../_modules/header/header');
+require('./fileDownload.js');
 import ScrollReveal from 'scrollreveal';
 
 
@@ -17,8 +18,10 @@ $(() => {
       this.classList.add('link-active');
   });
   
-  $('.nav-list_item-cta').on('click', function(){
-      alert("hi");
+  $('.download_win').on('click', function(){
+    $.fileDownload('../README.md.zip')
+      .done(function () { alert('File download a success!'); })
+      .fail(function () { alert('File download failed!'); });
   }); 
 
   var swiper1 = new Swiper('.swiper-container1', {

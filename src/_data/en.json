@@ -118,7 +118,7 @@
 			},
 			{
 				"name":"image",
-				"content":"http://www.sandbox.game/images/logo.png"
+				"content":"https://www.sandbox.game/images/logo.png"
 			}
 		],
 		"twitters":[
@@ -273,14 +273,14 @@
 				"name": "Creator Fund",
 				"list_class": "nav-list_item",
 				"link_class": "nav-list_link",
-				"url": "http://fund.sandbox.game/"
+				"url": "https://fund.sandbox.game/"
 			},
 			
 			{
 				"name": "FAQs",
 				"list_class": "nav-list_item",
 				"link_class": "nav-list_link nav-list_team",
-				"url": 	"http://sandbox.game/faqs.html"
+				"url": 	"https://sandbox.game/faqs.html"
 			}
 		],
 		"cta": "Join"
@@ -552,6 +552,7 @@
 		"title": "IT ALL STARTS HERE",
 		"subtitle1": "VoxEdit is the first software that allows you to create your own voxel models, rig them and animate them in no time.",
 		"subtitle2": "Download our Alpha for FREE now and start creating!",
+		"readme": "Please Read!",
 		"requirement1": "VoxEdit requires the latest version of Java installed on your computer in order to run",
 		"requirement2": "Download the lastest version of Java for your operating system Java",
 		"require_link": "https://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html",
@@ -581,6 +582,29 @@
 				"Java embedded in windows",
 				"Bug fixing"
 			]
+		},
+		"feature": {
+			"title": "VoxEditor features",
+			"items": [
+				{ 
+					"title": "Modeling",
+					"image": "../images/modeling.jpg",
+					"content": "Make the most of your creativity with a robust set of tools created for anyone to start making amazing stuff right away with our super user-friendly interface.",
+					"url": "modeling.html"
+				},
+				{ 
+					"title": "Animation",
+					"image": "../images/animation.jpg",
+					"content": "Make the most of your creativity with a robust set of tools created for anyone to start making amazing stuff right away with our super user-friendly interface.",
+					"url": "animation.html"
+				}
+			]
+		},
+		"confirm":{
+			"thank_text": "Thank you for downloading VoxEdit!",
+			"try_again_text1": "if your download does not begin,",
+			"try_again_text2": "please click here to try again.",
+			"try_again_url": ""
 		}
 	},
 
@@ -644,7 +668,7 @@
 		"social_title": "Social",
 		"social": [
 			{
-				"url": "http://medium.com/sandbox-game",
+				"url": "https://medium.com/sandbox-game",
 				"image": "../images/medium.png",
 				"alt": "Medium"
 			},
@@ -654,7 +678,7 @@
 				"alt": "Twitter"
 			},
 			{
-				"url": "http://www.pixowl.com",
+				"url": "https://www.pixowl.com",
 				"image": "../images/pixowl.png",
 				"alt": "Pixowl website"
 			}
@@ -663,7 +687,7 @@
 		"pages1": [
 			{
 				"text": "News",
-				"url": "http://medium.com/sandbox-game",
+				"url": "https://medium.com/sandbox-game",
 				"target": "_blank"
 			},
 			{
@@ -678,14 +702,14 @@
 			},
 			{
 				"text": "Editor",
-				"url": "http://www.voxedit.io",
+				"url": "https://www.voxedit.io",
 				"target": ""
 			}
 		],
 		"pages2": [
 			{
 				"text": "Whitepaper",
-				"url": "http://community.sandbox.game/en",
+				"url": "https://community.sandbox.game/en",
 				"target": ""
 			},
 			{
@@ -695,7 +719,7 @@
 			},
 			{
 				"text": "Marketplace",
-				"url": "http://community.sandbox.game/en",
+				"url": "https://community.sandbox.game/en",
 				"target": ""
 			},
 			{

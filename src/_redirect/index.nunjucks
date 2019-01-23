@@ -12,16 +12,16 @@
     <meta property="og:description" content="The Sandbox is a decentralized community-driven gaming ecosystem for creators to monetize voxel assets and gaming experiences in the blockchain!">
     <meta property="og:url" content="https://sandbox.game">
     <meta property="og:site_name" content="The Sandbox">
-    <meta property="og:image" content="http://www.sandbox.game/images/logo.png">
+    <meta property="og:image" content="https://www.sandbox.game/images/logo.png">
     <meta itemprop="name" content="The Sandbox">
     <meta itemprop="description" content="The Sandbox is a decentralized community-driven gaming ecosystem for creators to monetize voxel assets and gaming experiences in the blockchain!">
-    <meta itemprop="image" content="http://www.sandbox.game/images/logo.png">
+    <meta itemprop="image" content="https://www.sandbox.game/images/logo.png">
     <meta name="twitter:title" content="A Decentralized Gaming Ecosystem Made By Players.">
     <meta name="twitter:description" content="The Sandbox is a decentralized community-driven gaming ecosystem for creators to monetize voxel assets and gaming experiences in the blockchain!">
     <meta name="twitter:card" content="A Decentralized Gaming Ecosystem Made By Players.">
     <meta name="twitter:site" content="@thesandboxgame">
     <meta name="twitter:creator" content="@thesandboxgame">
-    <meta name="twitter:creator" content="http://www.sandbox.game/images/logo.png">
+    <meta name="twitter:creator" content="https://www.sandbox.game/images/logo.png">
 
     <script>
       var supportedLanguages = {{ supportedLanguages | dump }};

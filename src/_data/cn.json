@@ -1,70 +1,229 @@
 {
 	"global": {
-		"lang": "cn",
-		"titleTag": "The Sandbox",
-		"description": "The Sandbox is a decentralized community-driven gaming ecosystem for creators to monetize voxel assets and gaming experiences in the blockchain!",
-		"properties": [
-      {
-        "name": "og:title",
-        "content": "一个由玩家创建的去中心化游戏平台"
-      },
-      {
-        "name": "og:description",
-        "content": "Sandbox是一个去中心化的社区驱动型游戏生态系统，创作者可将区块链中的体素资产和游戏体验变现得利！"
-      },
-      {
-        "name": "og:url",
-        "content": "https://sandbox.game"
-      },
-      {
-        "name": "og:site_name",
-        "content": "Sandbox"
-      },
-      {
-        "name": "og:image",
-        "content": "http://www.sandbox.game/images/logo.png"
-      }
-    ],
-    "itemprops": [
-      {
-        "name": "name",
-        "content": "Sandbox"
-      },
-      {
-        "name": "description",
-        "content": "Sandbox是一个去中心化的社区驱动型游戏生态系统，创作者可将区块链中的体素资产和游戏体验变现得利！"
-      },
-      {
-        "name": "image",
-        "content": "http://www.sandbox.game/images/logo.png"
-      }
-    ],
-    "twitters": [
-      {
-        "name": "twitter:title",
-        "content": "一个由玩家创建的去中心化游戏平台"
-      },
-      {
-        "name": "twitter:description",
-        "content": "Sandbox是一个去中心化的社区驱动型游戏生态系统，创作者可将区块链中的体素资产和游戏体验变现得利！"
-      },
-      {
-        "name": "twitter:card",
-        "content": "一个由玩家创建的去中心化游戏平台"
-      },
-      {
-        "name": "twitter:site",
-        "content": "@thesandboxgame"
-      },
-      {
-        "name": "twitter:creator",
-        "content": "@thesandboxgame"
-      },
-      {
-        "name": "twitter:creator",
-        "content": "http://www.sandbox.game/images/logo.png"
-      }
-    ]
+    "lang": "cn",
+    
+		"titleTag": "The Sandbox - VoxEdit",
+		"downloadTitleTag": "Download VoxEdit - Free Voxel Editor",
+		"modelingTitleTag": "VoxEdit - Voxel Modeling",
+		"animationTitleTag": "VoxEdit - Voxel Animating & Rigging",
+
+		"description": "Create, animate, and play in The Sandbox. VoxEditor is the first software that allows you to create your own voxel models, rig them, and animate them in no time.",
+		"downloadDescription": "Download VoxEdit on Windows and MacOsX for FREE",
+		"modelingDescription": "VoxEdit provides a robust set of tools and our user-friendly interface for modeling.",
+		"animationDescription": "VoxEdit allows you to rig and animate anything that you want using the timeline via an easy-to-use keyframing mode.",
+
+		"keyword": "sandbox, voxeditor, voxedit, voxel editor, voxel art, 3D voxel game, voxel artists, voxel game art, voxel market, blockchain dapp, PC voxel game, PC voxel art",
+		"downloadKeyword": "sandbox, voxeditor, voxedit, voxel editor, voxel art, 3D voxel game, voxel artists, voxel game art, voxel market, blockchain dapp, PC voxel game, PC voxel art, voxedit",
+		"modelingKeyword": "voxedit, modeling, voxel, voxelart",
+    "animationKeyword": "voxedit, rigging, skeleton, animation, voxel, voxelart",
+    
+		"properties":[
+			{
+				"name":"og:title",
+				"content":"The Sandbox | Create and Animate Voxel Assets Using VoxEditor" 
+			},
+			{
+				"name":"og:description",
+				"content":"Create, animate, and play in The Sandbox. VoxEditor is the first software that allows you to create your own voxel models, rig them, and animate them in no time." 
+			},
+			{
+				"name":"og:url",
+				"content":"https://voxedit.io/" 
+			},
+			{
+				"name":"og:site_name",
+				"content":"VoxEdit" 
+			},
+			{
+				"name":"og:image",
+				"content":"https://www.sandbox.game/media/VoxEdit-Create-Animate-Play.jpg" 
+			}
+		],
+		"downloadProperties":[
+			{
+				"name":"og:title",
+				"content":"Download Vox Edit - Free Voxel Editor" 
+			},
+			{
+				"name":"og:description",
+				"content":"Download VoxEdit on Windows and MacOsX for FREE" 
+			},
+			{
+				"name":"og:url",
+				"content":"https://voxedit.io/download.html" 
+			},
+			{
+				"name":"og:site_name",
+				"content":"VoxEdit" 
+			},
+			{
+				"name":"og:image",
+				"content":"https://www.sandbox.game/media/The-Sandbox-Timelapse-Voxel-Cartoon-Character.gif" 
+			}
+		],
+		"modelingProperties":[
+			{
+				"name":"og:title",
+				"content":"VoxEdit - Voxel Modeling" 
+			},
+			{
+				"name":"og:description",
+				"content":"VoxEdit provides a robust set of tools and our user-friendly interface for modeling." 
+			},
+			{
+				"name":"og:url",
+				"content":"https://voxedit.io/modeling.html" 
+			},
+			{
+				"name":"og:site_name",
+				"content":"VoxEdit" 
+			},
+			{
+				"name":"og:image",
+				"content":"https://www.sandbox.game/media/The-Sandbox-Timelapse-Voxel-Art-Bus.gif" 
+			}
+		],
+		"animationProperties":[
+			{
+				"name":"og:title",
+				"content":"VoxEdit - Voxel Animating & Rigging" 
+			},
+			{
+				"name":"og:description",
+				"content":"VoxEdit allows you to rig and animate anything that you want using the timeline via an easy-to-use keyframing mode." 
+			},
+			{
+				"name":"og:url",
+				"content":"https://voxedit.io/animation.html" 
+			},
+			{
+				"name":"og:site_name",
+				"content":"VoxEdit" 
+			},
+			{
+				"name":"og:image",
+				"content":"https://www.sandbox.game/media/The-Sandbox-VoxEdit-Character-Rigging-Video-1.gif" 
+			}
+		],
+
+		"itemprops":[
+			{
+				"name":"name",
+				"content":"The Sandbox"
+			},
+			{
+				"name":"description",
+				"content":"The Sandbox is a decentralized community-driven gaming ecosystem for creators to monetize voxel assets and gaming experiences in the blockchain!"
+			},
+			{
+				"name":"image",
+				"content":"https://www.sandbox.game/images/logo.png"
+			}
+		],
+		"twitters":[
+			{
+				"name":"twitter:title",
+				"content": "The Sandbox | Create and Animate Voxel Assets Using VoxEditor"
+			},
+			{
+				"name":"twitter:description",
+				"content": "Create, animate, and play in The Sandbox. VoxEditor is the first software that allows you to create your own voxel models, rig them, and animate them in no time."
+			},
+			{
+				"name":"twitter:card",
+				"content": "A Decentralized Gaming Platform Made By Players."
+			},
+			{
+				"name":"twitter:site",
+				"content": "@voxedit"
+			},
+			{
+				"name":"twitter:creator",
+				"content": "@voxedit"
+			},
+			{
+				"name":"twitter:creator",
+				"content": "https://www.sandbox.game/media/VoxEdit-Create-Animate-Play.jpg"
+			}
+		],
+		"downloadTwitters":[
+			{
+				"name":"twitter:title",
+				"content": "Download Vox Edit - Free Voxel Editor"
+			},
+			{
+				"name":"twitter:description",
+				"content": "Download VoxEdit on Windows and MacOsX for FREE"
+			},
+			{
+				"name":"twitter:card",
+				"content": "VoxEdit - Free Voxel Editor Software to Model and Animate Voxels"
+			},
+			{
+				"name":"twitter:site",
+				"content": "@voxedit"
+			},
+			{
+				"name":"twitter:creator",
+				"content": "@voxedit"
+			},
+			{
+				"name":"twitter:creator",
+				"content": "https://www.sandbox.game/media/The-Sandbox-Timelapse-Voxel-Cartoon-Character.gif"
+			}
+		],
+		"modelingTwitters":[
+			{
+				"name":"twitter:title",
+				"content": "VoxEdit - Voxel Modeling"
+			},
+			{
+				"name":"twitter:description",
+				"content": "VoxEdit provides a robust set of tools and our user-friendly interface for modeling."
+			},
+			{
+				"name":"twitter:card",
+				"content": "VoxEdit - Free Voxel Editor Software to Model and Animate Voxels"
+			},
+			{
+				"name":"twitter:site",
+				"content": "@voxedit"
+			},
+			{
+				"name":"twitter:creator",
+				"content": "@voxedit"
+			},
+			{
+				"name":"twitter:creator",
+				"content": "https://www.sandbox.game/media/The-Sandbox-Timelapse-Voxel-Art-Bus.gif"
+			}
+		],
+		"animationTwitters":[
+			{
+				"name":"twitter:title",
+				"content": "VoxEdit - Voxel Animating & Rigging"
+			},
+			{
+				"name":"twitter:description",
+				"content": "VoxEdit allows you to rig and animate anything that you want using the timeline via an easy-to-use keyframing mode."
+			},
+			{
+				"name":"twitter:card",
+				"content": "VoxEdit - Free Voxel Editor Software to Model and Animate Voxels"
+			},
+			{
+				"name":"twitter:site",
+				"content": "@voxedit"
+			},
+			{
+				"name":"twitter:creator",
+				"content": "@voxedit"
+			},
+			{
+				"name":"twitter:creator",
+				"content": "https://www.sandbox.game/media/The-Sandbox-VoxEdit-Character-Rigging-Video-1.gif"
+			}
+		]
 	},
 
 	"header": {
@@ -112,14 +271,14 @@
 				"name": "创建者基金",
 				"list_class": "nav-list_item",
 				"link_class": "nav-list_link",
-				"url": "http://fund.sandbox.game/"
+				"url": "https://fund.sandbox.game/"
 			},
 		
 			{
 				"name": "常见问题",
 				"list_class": "nav-list_item",
 				"link_class": "nav-list_link nav-list_team",
-				"url": 	"http://sandbox.game/faqs.html"
+				"url": 	"https://sandbox.game/faqs.html"
 			}
 		],
 		"cta": "Join"
@@ -427,6 +586,7 @@
     "title": "一切由此展开",
     "subtitle1": "VoxEditor是首款允许您自行创作体素模型，对体素模型进行装配并实时绘制动画的软件。",
     "subtitle2": "即刻免费下载我们的Alpha，开启创作之旅！",
+    "readme": "敬请阅读！",
     "requirement1": "您需要在您的电脑上安装最新版本的Java，为VoxEidt提供运行支持。",
     "requirement2": "为您的操作系统下载最新版本的Java",
     "require_link": "https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html",
@@ -456,6 +616,29 @@
 				"Windows内嵌Java",
 				"错误修复"
 			]
+    },
+    "feature": {
+      "title": "VoxEdit功能",
+      "items": [
+        {
+          "title": "建模",
+          "image": "../images/modeling.jpg",
+          "content": "充分发挥您的创造力！ 无论是初学者还是专家，任何人均可通过我们强大的工具集和用户友好的界面创作出令人惊叹的作品。",
+          "url": "modeling.html"
+        },
+        {
+          "title": "绘制动画",
+          "image": "../images/animation.jpg",
+          "content": "体素创作世界中的游戏改变者。 在我们的骨架系统上，您可使用VoxEdit通过操作简便的关键帧模式设置时间轴，装配并将您想要的任何内容绘制成动画。",
+          "url": "animation.html"
+        }
+      ]
+    },
+		"confirm":{
+			"thank_text": "Thank you for downloading VoxEdit!",
+			"try_again_text1": "if your download does not begin,",
+			"try_again_text2": "please click here to try again.",
+			"try_again_url": ""
 		}
   },
 
@@ -518,7 +701,7 @@
 		"social_title": "社交",
     "social": [
       {
-        "url": "http://medium.com/sandbox-game",
+        "url": "https://medium.com/sandbox-game",
         "image": "../images/medium.png",
         "alt": "Medium"
       },
@@ -528,7 +711,7 @@
         "alt": "Twitter"
       },
       {
-        "url": "http://www.pixowl.com",
+        "url": "https://www.pixowl.com",
         "image": "../images/pixowl.png",
         "alt": "Pixowl website"
       }
@@ -536,7 +719,7 @@
     "pages1": [
       {
         "text": "资讯",
-        "url": "http://medium.com/sandbox-game",
+        "url": "https://medium.com/sandbox-game",
         "target": "_blank"
       },
       {
@@ -551,14 +734,14 @@
       },
       {
         "text": "编辑",
-        "url": "http://www.voxedit.io/cn",
+        "url": "https://www.voxedit.io/cn",
         "target": ""
       }
     ],
     "pages2": [
       {
         "text": "白皮书",
-        "url": "http://community.sandbox.game/cn",
+        "url": "https://community.sandbox.game/cn",
         "target": ""
       },
       {
@@ -568,7 +751,7 @@
       },
       {
         "text": "市场",
-        "url": "http://community.sandbox.game/cn",
+        "url": "https://community.sandbox.game/cn",
         "target": ""
       },
       {

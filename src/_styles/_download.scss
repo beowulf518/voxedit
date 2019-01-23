@@ -124,5 +124,93 @@
         }
     }
 
+    &-feature{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+        .feature-title{
+            font-size: 24px;
+            font-weight: 600;
+        }
+
+        .feature-content{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            width: 100%;
+            margin-top: 30px;
+            
+            .feature-item{
+                width: 420px;
+                height: 390px;
+                box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+                border-radius: 5px;
+                background-color: #f9f9f9;
+                margin-left:10px;
+                margin-right:10px;
+                margin-bottom: 30px;
+                
+                &>div {
+                    padding: 19px;
+                }
+                img{
+                   border-radius: 5px 5px 0px 0px;
+                }
+
+                .feature-item-title{
+                    color: #505052;
+                    font-family: "Montserrat";
+                    font-size: 20px;
+                    font-weight: 600;
+                    line-height: 20px;
+                }
+                .feature-item-content{
+                    color: #505052;
+                    font-family: Montserrat;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 20px;
+                    margin-top: 13px;
+                }
+            
+            }
+
+            .feature-item:hover{
+                transform: scale(1.02);
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.55);
+            }
+        }
+
+    }
+
+    &-confirm{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+
+        .download-thanks{
+           
+            border-bottom: solid 1px #505052;
+            width: fit-content;
+            padding-bottom: 10px;
+            .thanks{
+                font-weight: 600;
+                font-size: 40px;
+            }
+        }
+        .try-again{
+            margin-top: 10px;
+            text-align: center;
+            a{
+                color: #79cff3;
+                text-decoration: underline;
+            }
+        }
+    }
+
     
 }

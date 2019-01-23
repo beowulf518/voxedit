@@ -1,0 +1,41 @@
+{% extends '_layouts/download.nunjucks' %}
+
+
+{% import '_modules/header/header.nunjucks' as header %}
+
+{% import '_modules/footer/footer.nunjucks' as footer %}
+
+
+{% block content %}
+<header class="zone zone-header">
+  {{ header.content() }}
+</header>
+<main id="content">
+   
+    <div class="download-zone">
+        <div class="download-banner">
+            <img class="download-banner-img" src="{{_.download.banner_img}}" />
+        </div>
+        
+    </div>
+   
+
+    {# <a href="https://discord.gg/vAe4zvY" class="hero-discord">
+      <img src="../images/Discord-Logo-Color.svg" alt="" class="hero-telegram_img">
+    </a> #}
+
+    <div class="download-confirm">
+        <div class="download-thanks">
+           <h2 class="thanks">{{_.download.confirm.thank_text}}</h2>
+        </div>
+        <p class="try-again">{{_.download.confirm.try_again_text1}} <a href="#">{{_.download.confirm.try_again_text2}}</a></p>
+    </div>
+    
+
+    
+    <div class="zone footer-zone">
+        {{ footer.content() }}
+    </div>
+
+</main>
+{% endblock %}
