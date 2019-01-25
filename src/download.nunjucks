@@ -45,7 +45,7 @@
                     <p class="download-button-description">{{_.download.win_description}}</p>
                 </div>
                 <div class="download-btn-mac download-btn-item">
-                    <a href="{{_.download.mac_link}}">
+                    <a class="download_mac">
                         <div class="download-button">
                             <img src="{{_.download.mac_img}}"/>
                             <p>{{_.download.btn_title}}</p>
@@ -54,7 +54,7 @@
                     <p class="download-button-description">{{_.download.mac_description}}</p>
                 </div>
                 <div class="download-btn-linux download-btn-item">
-                    <a href="{{_.download.linux_link}}">
+                    <a class="download_linux">
                         <div class="download-button">
                             <img src="{{_.download.linux_img}}"/>
                             <p>{{_.download.btn_title}}</p>
@@ -103,6 +103,8 @@
     <div class="zone footer-zone">
         {{ footer.content() }}
     </div>
+
+
 
 </main>
 {% endblock %}

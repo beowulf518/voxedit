@@ -18,19 +18,27 @@ $(() => {
       this.classList.add('link-active');
   });
   
-  // $('.download_win').on('click', function(){
-  //   $.fileDownload('../README.md.zip')
-  //     .done(function () { alert('File download a success!'); })
-  //     .fail(function () { alert('File download failed!'); });
-  // }); 
+  
+  
+  $('.download_win').on('click', function(){
+    window.location = "./voxeditor-confirm.html?version=win"
+    
+  }); 
+  $('.download_mac').on('click', function(){
+    window.location = "./voxeditor-confirm.html?version=mac"
+    
+  }); 
+  $('.download_linux').on('click', function(){
+    window.location = "./voxeditor-confirm.html?version=linux"
+  }); 
 
-  $(document).on("click", "a.download_win", function () {
-    $.fileDownload('../README.md.zip')
-        .done(function () { alert('File download a success!'); })
-        .fail(function () { alert('File download failed!'); });
+  // $(document).on("click", "a.download_win", function () {
+  //   $.fileDownload('../README.md.zip')
+  //       .done(function () { alert('File download a success!'); })
+  //       .fail(function () { alert('File download failed!'); });
  
-    return false; //this is critical to stop the click event which will trigger a normal file download
-  });
+  //   return false; //this is critical to stop the click event which will trigger a normal file download
+  // });
 
   var swiper1 = new Swiper('.swiper-container1', {
     spaceBetween: 36,
