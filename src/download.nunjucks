@@ -36,7 +36,7 @@
             <hr class="download-divider">
             <div class="download-btn-group">
                 <div class="download-btn-windows download-btn-item">
-                    <a class="download_win">
+                    <a  class="download_win">
                         <div class="download-button">
                             <img src="{{_.download.win_img}}"/>
                             <p>{{_.download.btn_title}}</p>

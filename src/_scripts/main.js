@@ -18,11 +18,19 @@ $(() => {
       this.classList.add('link-active');
   });
   
-  $('.download_win').on('click', function(){
+  // $('.download_win').on('click', function(){
+  //   $.fileDownload('../README.md.zip')
+  //     .done(function () { alert('File download a success!'); })
+  //     .fail(function () { alert('File download failed!'); });
+  // }); 
+
+  $(document).on("click", "a.download_win", function () {
     $.fileDownload('../README.md.zip')
-      .done(function () { alert('File download a success!'); })
-      .fail(function () { alert('File download failed!'); });
-  }); 
+        .done(function () { alert('File download a success!'); })
+        .fail(function () { alert('File download failed!'); });
+ 
+    return false; //this is critical to stop the click event which will trigger a normal file download
+  });
 
   var swiper1 = new Swiper('.swiper-container1', {
     spaceBetween: 36,
