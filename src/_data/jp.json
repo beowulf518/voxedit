@@ -600,7 +600,7 @@
         "mac_description": "OSX Mavericks以降",
         "linux_description": "Linux",
         "win_link": "https://www.voxedit.io/download/VoxEdit-Alpha-v0.3.13-WIN.zip",
-        "mac_link": "https://www.voxedit.io/download/VoxEdit-Alpha-v0.3.13-OSX.pkg",
+        "mac_link": "https://www.voxedit.io/download/VoxEdit-Alpha-v0.3.13-MAC.pkg",
         "linux_link": "https://www.voxedit.io/download/VoxEdit-Alpha-v0.3.13-LINUX.zip",
         "win_hash": "d6ce81fa505edc059def71c145eb07f4",
         "mac_hash": "4a249917cea7aa846be404966aea6d61",
