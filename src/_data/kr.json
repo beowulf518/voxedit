@@ -590,32 +590,56 @@
         "requirement1": "VoxEidt의 실행을 위해서는 컴퓨터에 최신 버전의 Java가 설치되어야 합니다",
         "requirement2": "자신의 운영체제에 맞는 최신 버전의 Java를 다운로드하세요",
         "require_link": "https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html",
-        "version": "알파 릴리이즈 v0.3.0",
+        "version": "알파 릴리이즈 v0.3.13",
         "btn_title": "다운로드", 
         "win_description": "Windows 7 이상", 
         "mac_description": "OSX Mavericks 이상",
         "linux_description": "Linux",
-        "win_link": "https://www.voxedit.io/download/VoxEdit-Alpha-v0.3.0-WIN.zip",
-        "mac_link": "https://www.voxedit.io/download/VoxEdit-Alpha-v0.3.0-OSX.pkg",
-        "linux_link": "https://www.voxedit.io/download/VoxEdit-Alpha-v0.3.0-LINUX.zip",
+        "win_link": "https://www.voxedit.io/download/VoxEdit-Alpha-v0.3.13-WIN.zip",
+        "mac_link": "https://www.voxedit.io/download/VoxEdit-Alpha-v0.3.13-OSX.pkg",
+        "linux_link": "https://www.voxedit.io/download/VoxEdit-Alpha-v0.3.13-LINUX.zip",
+        "win_hash": "d6ce81fa505edc059def71c145eb07f4",
+        "mac_hash": "4a249917cea7aa846be404966aea6d61",
+        "linux_hash": "0d3dc55b7f8dfe18f4b86b55a062c07b",
         "win_img": "../images/WindowsLogo.png",
         "mac_img": "../images/AppleLogo.png",
         "linux_img": "../images/LinuxLogo.png",
         "upcomingFeatures": "../images/VoxEditUpcomingFeatures.png",
         "changelog" : {
           "title": "변경 로그",
-          "date": "2018년 12월 21일 - v0.3.0",
-          "log_list": [
-            "Linux 버전 추가",
-            "ctrl+z로 실행 취소 (Win)",
-            "ctrl+y로 재실행 (Win)",
-            "cmd+z로 실행 취소 (Mac)",
-            "cmd+y로 재실행 (Mac)",
-            "10단계 실행 취소/재실행",
-            "충돌 로그",
-            "윈도우에 Java 내장",
-            "버그 수정"
+          "log_list":[
+            {
+              "date": "January 25th, 2019 - v0.3.13",
+              "list": [
+                "New canvas size limit, 256 voxels from 128.",
+                "You will be able to export models to obj format.",
+                "2 new buttons had been added to the top bar: File & Edit:",
+                "File: Save, Open, Recent and Export functionalities.",
+                "Edit: Undo and Redo functionalities.",
+                "Nice edges button added, which only show the edges of the voxels as a whole instead of block by block.",
+                "Ambient occlusion and SSAO: You will now able to notice a change on the way voxels are rendered.",
+                "Screenshots: You will find a new button on the modeler and rigger to take a Screenshot of your creations.",
+                "Several Bug Fixing",
+                "Performance may be affected by changes in the render(WIP)"
+              ]
+            },
+            {
+              "date": "2018년 10월 21일 - v0.3.0",
+              "list": [
+                "Linux 버전 추가",
+                "ctrl+z로 실행 취소 (Win)",
+                "ctrl+y로 재실행 (Win)",
+                "cmd+z로 실행 취소 (Mac)",
+                "cmd+y로 재실행 (Mac)",
+                "10단계 실행 취소/재실행",
+                "충돌 로그",
+                "윈도우에 Java 내장",
+                "버그 수정"
+              ]
+            }
           ]
+          
+          
         },
         "feature": {
           "title": "VoxEdit 기능",

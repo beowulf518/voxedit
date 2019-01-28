@@ -28,7 +28,7 @@
         <div class="download-thanks">
            <h2 class="thanks">{{_.download.confirm.thank_text}}</h2>
         </div>
-        <p class="try-again">{{_.download.confirm.try_again_text1}} <a href="./download.html">{{_.download.confirm.try_again_text2}}</a></p>
+        <p class="try-again">{{_.download.confirm.try_again_text1}} <a onclick="window.location.reload()" style="cursor: pointer;">{{_.download.confirm.try_again_text2}}</a></p>
     </div>
     
 

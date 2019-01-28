@@ -556,31 +556,52 @@
 		"requirement1": "VoxEdit requires the latest version of Java installed on your computer in order to run",
 		"requirement2": "Download the lastest version of Java for your operating system Java",
 		"require_link": "https://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html",
-		"version": "Alpha release v0.3.0",
+		"version": "Alpha release v0.3.13",
 		"btn_title": "DOWNLOAD", 
 		"win_description": "Windows 7 and up", 
 		"mac_description": "OSX Mavericks and up",
 		"linux_description": "Linux",
-		"win_link": "https://www.voxedit.io/download/VoxEdit-Alpha-v0.3.0-WIN.zip",
-		"mac_link": "https://www.voxedit.io/download/VoxEdit-Alpha-v0.3.0-OSX.pkg",
-		"linux_link": "https://www.voxedit.io/download/VoxEdit-Alpha-v0.3.0-LINUX.zip",
+		"win_link": "https://www.voxedit.io/download/VoxEdit-Alpha-v0.3.13-WIN.zip",
+		"mac_link": "https://www.voxedit.io/download/VoxEdit-Alpha-v0.3.13-OSX.pkg",
+		"linux_link": "https://www.voxedit.io/download/VoxEdit-Alpha-v0.3.13-LINUX.zip",
+		"win_hash": "d6ce81fa505edc059def71c145eb07f4",
+		"mac_hash": "4a249917cea7aa846be404966aea6d61",
+		"linux_hash": "0d3dc55b7f8dfe18f4b86b55a062c07b",
 		"win_img": "../images/WindowsLogo.png",
 		"mac_img": "../images/AppleLogo.png",
 		"linux_img": "../images/LinuxLogo.png",
 		"upcomingFeatures": "../images/VoxEditUpcomingFeatures.png",
 		"changelog" : {
 			"title": "Changelog",
-			"date": "December 21st, 2018 - v0.3.0",
 			"log_list": [
-				"Added a Linux version",
-				"Undo with ctrl+z (Win)",
-				"Redo with ctrl+y (Win)",
-				"Undo with cmd+z (Mac)",
-				"Redo with cmd+y (Mac)",
-				"10 steps for undo/redo",
-				"CrashLogs",
-				"Java embedded in windows",
-				"Bug fixing"
+				{
+					"date": "January 25th, 2019 - v0.3.13",
+					"list": [
+						"New canvas size limit, 256 voxels from 128.",
+						"You will be able to export models to obj format.",
+						"2 new buttons had been added to the top bar: File & Edit:",
+						"File: Save, Open, Recent and Export functionalities.",
+						"Edit: Undo and Redo functionalities.",
+						"Nice edges button added, which only show the edges of the voxels as a whole instead of block by block.",
+						"Ambient occlusion and SSAO: You will now able to notice a change on the way voxels are rendered.",
+						"Screenshots: You will find a new button on the modeler and rigger to take a Screenshot of your creations.",
+						"Several Bug Fixing",
+						"Performance may be affected by changes in the render(WIP)"
+					]
+				},{
+					"date": "December 21st, 2018 - v0.3.0",
+					"list": [
+						"Added a Linux version",
+						"Undo with ctrl+z (Win)",
+						"Redo with ctrl+y (Win)",
+						"Undo with cmd+z (Mac)",
+						"Redo with cmd+y (Mac)",
+						"10 steps for undo/redo",
+						"CrashLogs",
+						"Java embedded in windows",
+						"Bug fixing"
+					]
+				}	
 			]
 		},
 		"feature": {

@@ -36,31 +36,34 @@
             <hr class="download-divider">
             <div class="download-btn-group">
                 <div class="download-btn-windows download-btn-item">
-                    <a  class="download_win">
+                    <a  class="download_win download-button_alink">
                         <div class="download-button">
                             <img src="{{_.download.win_img}}"/>
                             <p>{{_.download.btn_title}}</p>
                         </div>
                     </a>
                     <p class="download-button-description">{{_.download.win_description}}</p>
+                    <p class="download-button-hash">md5: {{_.download.win_hash}}</p>
                 </div>
                 <div class="download-btn-mac download-btn-item">
-                    <a class="download_mac">
+                    <a class="download_mac download-button_alink">
                         <div class="download-button">
                             <img src="{{_.download.mac_img}}"/>
                             <p>{{_.download.btn_title}}</p>
                         </div>
                     <a>
                     <p class="download-button-description">{{_.download.mac_description}}</p>
+                    <p class="download-button-hash">md5: {{_.download.mac_hash}}</p>
                 </div>
                 <div class="download-btn-linux download-btn-item">
-                    <a class="download_linux">
+                    <a class="download_linux download-button_alink">
                         <div class="download-button">
                             <img src="{{_.download.linux_img}}"/>
                             <p>{{_.download.btn_title}}</p>
                         </div>
                     <a>
                     <p class="download-button-description">{{_.download.linux_description}}</p>
+                    <p class="download-button-hash">md5: {{_.download.linux_hash}}</p>
                 </div>
             </div>
             <div class="download-requirement">
@@ -71,13 +74,14 @@
 
             <div class="download-changelog">
                 <p class="changelog-title">{{_.download.changelog.title}}</p>
-                <p class="changelog-date">{{_.download.changelog.date}}</p>
-                <ul>    
-                    {% for item in _.download.changelog.log_list %}
-                        <li>{{item}}</li>
-                    {% endfor %}
-                </ul>
-                
+                {% for item in _.download.changelog.log_list %}
+                    <p class="changelog-date">{{item.date}}</p>
+                    <ul class="changelog-list">    
+                        {% for node in item.list %}
+                            <li>{{node}}</li>
+                        {% endfor %}
+                    </ul>
+                {% endfor %}
                 
             </div>
 

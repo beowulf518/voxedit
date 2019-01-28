@@ -93,11 +93,11 @@
             var os = url.searchParams.get("version");
             
             if(os=='win'){
-              window.location = "https://www.voxedit.io/download/VoxEdit-Alpha-v0.3.0-WIN.zip";
+              window.location = "{{_.download.win_link}}";
             }else if(os=='mac'){
-              window.location = "https://www.voxedit.io/download/VoxEdit-Alpha-v0.3.0-OSX.pkg";
+              window.location = "{{_.download.win_mac}}";
             }else if(os=='linux'){
-              window.location = "https://www.voxedit.io/download/VoxEdit-Alpha-v0.3.0-LINUX.zip";
+              window.location = "{{_.download.win_linux}}";
             }
         
       }
