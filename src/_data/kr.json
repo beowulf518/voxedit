@@ -6,13 +6,13 @@
 		"modelingTitleTag": "VoxEdit - Voxel Modeling",
 		"animationTitleTag": "VoxEdit - Voxel Animating & Rigging",
 
-		"description": "Create, animate, and play in The Sandbox. VoxEditor is the first software that allows you to create your own voxel models, rig them, and animate them in no time.",
+		"description": "Create, animate, and play in The Sandbox. VoxEdit is the first software that allows you to create your own voxel models, rig them, and animate them in no time.",
 		"downloadDescription": "Download VoxEdit on Windows and MacOsX for FREE",
 		"modelingDescription": "VoxEdit provides a robust set of tools and our user-friendly interface for modeling.",
 		"animationDescription": "VoxEdit allows you to rig and animate anything that you want using the timeline via an easy-to-use keyframing mode.",
 
-		"keyword": "sandbox, voxeditor, voxedit, voxel editor, voxel art, 3D voxel game, voxel artists, voxel game art, voxel market, blockchain dapp, PC voxel game, PC voxel art",
-		"downloadKeyword": "sandbox, voxeditor, voxedit, voxel editor, voxel art, 3D voxel game, voxel artists, voxel game art, voxel market, blockchain dapp, PC voxel game, PC voxel art, voxedit",
+		"keyword": "sandbox, voxedit, voxedit, voxel editor, voxel art, 3D voxel game, voxel artists, voxel game art, voxel market, blockchain dapp, PC voxel game, PC voxel art",
+		"downloadKeyword": "sandbox, voxedit, voxedit, voxel editor, voxel art, 3D voxel game, voxel artists, voxel game art, voxel market, blockchain dapp, PC voxel game, PC voxel art, voxedit",
 		"modelingKeyword": "voxedit, modeling, voxel, voxelart",
 		"animationKeyword": "voxedit, rigging, skeleton, animation, voxel, voxelart",
 
@@ -20,11 +20,11 @@
 		"properties":[
 			{
 				"name":"og:title",
-				"content":"The Sandbox | Create and Animate Voxel Assets Using VoxEditor" 
+				"content":"The Sandbox | Create and Animate Voxel Assets Using VoxEdit" 
 			},
 			{
 				"name":"og:description",
-				"content":"Create, animate, and play in The Sandbox. VoxEditor is the first software that allows you to create your own voxel models, rig them, and animate them in no time." 
+				"content":"Create, animate, and play in The Sandbox. VoxEdit is the first software that allows you to create your own voxel models, rig them, and animate them in no time." 
 			},
 			{
 				"name":"og:url",
@@ -123,11 +123,11 @@
 		"twitters":[
 			{
 				"name":"twitter:title",
-				"content": "The Sandbox | Create and Animate Voxel Assets Using VoxEditor"
+				"content": "The Sandbox | Create and Animate Voxel Assets Using VoxEdit"
 			},
 			{
 				"name":"twitter:description",
-				"content": "Create, animate, and play in The Sandbox. VoxEditor is the first software that allows you to create your own voxel models, rig them, and animate them in no time."
+				"content": "Create, animate, and play in The Sandbox. VoxEdit is the first software that allows you to create your own voxel models, rig them, and animate them in no time."
 			},
 			{
 				"name":"twitter:card",
@@ -584,7 +584,7 @@
     "download":{
         "banner_img": "../images/VoxEditPageHeader.png",
         "title": "모든 것은 여기에서 시작됩니다",
-        "subtitle1": "VoxEditor는 자신만의 복셀 모델을 만들고, 리그하고, 즉시 애니메이션을 만들 수 있는 최초의 소프트웨어입니다.",
+        "subtitle1": "VoxEdit는 자신만의 복셀 모델을 만들고, 리그하고, 즉시 애니메이션을 만들 수 있는 최초의 소프트웨어입니다.",
         "subtitle2": "알파 버전을 지금 무료로 다운로드하고 크리에이션을 시작하세요!",
         "readme": "꼭 읽어주세요!",
         "requirement1": "VoxEidt의 실행을 위해서는 컴퓨터에 최신 버전의 Java가 설치되어야 합니다",

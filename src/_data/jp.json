@@ -6,13 +6,13 @@
 		"modelingTitleTag": "VoxEdit - Voxel Modeling",
 		"animationTitleTag": "VoxEdit - Voxel Animating & Rigging",
 
-		"description": "Create, animate, and play in The Sandbox. VoxEditor is the first software that allows you to create your own voxel models, rig them, and animate them in no time.",
+		"description": "Create, animate, and play in The Sandbox. VoxEdit is the first software that allows you to create your own voxel models, rig them, and animate them in no time.",
 		"downloadDescription": "Download VoxEdit on Windows and MacOsX for FREE",
 		"modelingDescription": "VoxEdit provides a robust set of tools and our user-friendly interface for modeling.",
 		"animationDescription": "VoxEdit allows you to rig and animate anything that you want using the timeline via an easy-to-use keyframing mode.",
 
-		"keyword": "sandbox, voxeditor, voxedit, voxel editor, voxel art, 3D voxel game, voxel artists, voxel game art, voxel market, blockchain dapp, PC voxel game, PC voxel art",
-		"downloadKeyword": "sandbox, voxeditor, voxedit, voxel editor, voxel art, 3D voxel game, voxel artists, voxel game art, voxel market, blockchain dapp, PC voxel game, PC voxel art, voxedit",
+		"keyword": "sandbox, voxedit, voxedit, voxel editor, voxel art, 3D voxel game, voxel artists, voxel game art, voxel market, blockchain dapp, PC voxel game, PC voxel art",
+		"downloadKeyword": "sandbox, voxedit, voxedit, voxel editor, voxel art, 3D voxel game, voxel artists, voxel game art, voxel market, blockchain dapp, PC voxel game, PC voxel art, voxedit",
 		"modelingKeyword": "voxedit, modeling, voxel, voxelart",
 		"animationKeyword": "voxedit, rigging, skeleton, animation, voxel, voxelart",
 
@@ -20,11 +20,11 @@
 		"properties":[
 			{
 				"name":"og:title",
-				"content":"The Sandbox | Create and Animate Voxel Assets Using VoxEditor" 
+				"content":"The Sandbox | Create and Animate Voxel Assets Using VoxEdit" 
 			},
 			{
 				"name":"og:description",
-				"content":"Create, animate, and play in The Sandbox. VoxEditor is the first software that allows you to create your own voxel models, rig them, and animate them in no time." 
+				"content":"Create, animate, and play in The Sandbox. VoxEdit is the first software that allows you to create your own voxel models, rig them, and animate them in no time." 
 			},
 			{
 				"name":"og:url",
@@ -123,11 +123,11 @@
 		"twitters":[
 			{
 				"name":"twitter:title",
-				"content": "The Sandbox | Create and Animate Voxel Assets Using VoxEditor"
+				"content": "The Sandbox | Create and Animate Voxel Assets Using VoxEdit"
 			},
 			{
 				"name":"twitter:description",
-				"content": "Create, animate, and play in The Sandbox. VoxEditor is the first software that allows you to create your own voxel models, rig them, and animate them in no time."
+				"content": "Create, animate, and play in The Sandbox. VoxEdit is the first software that allows you to create your own voxel models, rig them, and animate them in no time."
 			},
 			{
 				"name":"twitter:card",
@@ -301,7 +301,7 @@
         "download_link": "download.html",
         "bg_img": "../images/Editor-banner1.png",
         "mark_logo": "../images/mark-article.png",
-        "subtitle": "VoxEditorは、独自のボクセル・モデルを作成してリギングを行い、短時間でアニメーションを作成できる初めてのソフトウェアです。",
+        "subtitle": "VoxEditは、独自のボクセル・モデルを作成してリギングを行い、短時間でアニメーションを作成できる初めてのソフトウェアです。",
         "ative_submenu": [
           {
             "name": "モデリング",
@@ -330,7 +330,7 @@
         "title": "アニメーションの概要",
         "creation": {
           "title": "アートのアニメーションを作成",
-          "text": "ボクセルアートの世界に大変革をもたらします。 弊社のスケルトン・システムでは、VoxEditorの使いやすいキーフレーム・モードでタイムラインを使用して必要なモデルをリギングし、アニメーションを作成できます。",
+          "text": "ボクセルアートの世界に大変革をもたらします。 弊社のスケルトン・システムでは、VoxEditの使いやすいキーフレーム・モードでタイムラインを使用して必要なモデルをリギングし、アニメーションを作成できます。",
           "image": "../images/VoxEditAnimation.gif",
           "subtitle": "機能",
           "items": [
@@ -402,11 +402,11 @@
               "class": "skelection-content-item3"
             }
           ],
-          "text": "VoxEditorを使用すると、タイムラインでアニメーションを作成できるスケルトン・ボーンに3Dモデルパーツを付加可能な階層システムを使用してモデルをリギングできます。"
+          "text": "VoxEditを使用すると、タイムラインでアニメーションを作成できるスケルトン・ボーンに3Dモデルパーツを付加可能な階層システムを使用してモデルをリギングできます。"
         },
         "timeline": {
           "title": "タイムライン",
-          "text": "VoxEditorは、スケルトン・システムを使用してリギングするだけでなく、アニメーションも作成できる初めてのボクセル・ソフトウェアです。<br/><br/>必要なあらゆるアニメーションを作成し、ゲーム内でのモデルの体験を向上させてください。<br/><br/> 使いやすいインターフェースのキーフレーム補間を使用して、タイムラインであらゆるモデルのアニメーションを作成します。<br/><br/> キーフレームを移動したり、キーフレーム間の補間を伸ばしたり、曲線を追加したりして、アニメーションを完成させることができます。何を選ぶかはユーザー次第です。",
+          "text": "VoxEditは、スケルトン・システムを使用してリギングするだけでなく、アニメーションも作成できる初めてのボクセル・ソフトウェアです。<br/><br/>必要なあらゆるアニメーションを作成し、ゲーム内でのモデルの体験を向上させてください。<br/><br/> 使いやすいインターフェースのキーフレーム補間を使用して、タイムラインであらゆるモデルのアニメーションを作成します。<br/><br/> キーフレームを移動したり、キーフレーム間の補間を伸ばしたり、曲線を追加したりして、アニメーションを完成させることができます。何を選ぶかはユーザー次第です。",
           "image": "../images/timeline.png"
         },
         "library": {
@@ -567,7 +567,7 @@
         },
         "iexport": {
           "title": "インポート/エクスポート",
-          "text": "Vox Editorは、次のような3Dファイル形式の標準をサポートしています。",
+          "text": "Vox Editは、次のような3Dファイル形式の標準をサポートしています。",
           "items": [
             {
               "text": ".obj"
@@ -656,7 +656,7 @@
             {
               "title": "アニメーション",
               "image": "../images/animation.jpg",
-              "content": "ボクセルアートの世界に大変革をもたらします。 弊社のスケルトン・システムでは、VoxEditorの使いやすいキーフレーム・モードでタイムラインを使用して必要なモデルを準備し、アニメーションを作成できます。",
+              "content": "ボクセルアートの世界に大変革をもたらします。 弊社のスケルトン・システムでは、VoxEditの使いやすいキーフレーム・モードでタイムラインを使用して必要なモデルを準備し、アニメーションを作成できます。",
               "url": "animation.html"
             }
           ]
@@ -680,7 +680,7 @@
           {
             "title": "アニメーション",
             "image": "../images/animation.jpg",
-            "content": "ボクセルアートの世界に大変革をもたらします。 弊社のスケルトン・システムでは、VoxEditorの使いやすいキーフレーム・モードでタイムラインを使用して必要なモデルを準備し、アニメーションを作成できます。",
+            "content": "ボクセルアートの世界に大変革をもたらします。 弊社のスケルトン・システムでは、VoxEditの使いやすいキーフレーム・モードでタイムラインを使用して必要なモデルを準備し、アニメーションを作成できます。",
             "url": "animation.html"
           },
           {
